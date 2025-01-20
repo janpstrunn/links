@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#1C1B21;">
+  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F63%2F86%2FE2v5jl.gif&f=1&nofb=1&ipt=127f07a7e6b531021b04e74d9e5ffd6361a7f92ed480fdc9b5590f6367e795ff&ipo=images');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(19, 14, 28, 0.9);
+        border-radius: 20px;
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        position: relative;
+        padding: 0 20px;
+        border: 2px solid #7c5cff;
+        box-sizing: border-box;
+      }
+
+      .icon {
+        position: absolute;
+        left: 20px;
+        height: 80px;
+      }
+
+      h1.homepage-title {
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(19, 14, 28, 0.9);
+        border: 2px solid #7c5cff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        text-shadow: 0 0 20px white;
+        flex-grow: 1;
+        max-width: 50%;
+      }
+
+      .emoji-button {
+        background: transparent;
+        border: none;
+        font-size: 36px;
+        cursor: pointer;
+        color: white;
+        z-index: 1;
+        text-shadow: 0 0 20px white;
+      }
+
+      .emoji-button:hover {
+        opacity: 0.8;
+      }
+
+      .emoji-link {
+        position: absolute;
+        right: 20px;
+        text-decoration: none;
+      }
+
+      .emoji-link:hover .emoji-button {
+        opacity: 0.8;
+      }
+
+      h1 {
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(19, 14, 28, 0.9);
+        border: 2px solid #7c5cff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0;
+        text-shadow: 0 0 5px white;
+      }
+
+      /* Header Theming */
+
+      .ai {
+        color: #46d9ff;
+        text-shadow: 0 0 5px #46d9ff;
+      }
+
+      .news {
+        color: #f4f113;
+        text-shadow: 0 0 5px #f4f113;
+      }
+
+      .vet {
+        color: #02f789;
+        text-shadow: 0 0 5px #02f789;
+      }
+
+      .code {
+        color: #8720fc;
+        text-shadow: 0 0 5px #8720fc;
+      }
+
+      .lifestyle {
+        color: #f067fc;
+        text-shadow: 0 0 5px #f067fc;
+      }
+
+      .db {
+        color: #fcae5f;
+        text-shadow: 0 0 5px #fcae5f;
+      }
+
+      .privacy {
+        color: #fc5f62;
+        text-shadow: 0 0 5px #fc5f62;
+      }
+
+      .columns-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+      }
+
+      .column {
+        flex: 0 0 auto;
+        padding: 15px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .card {
+        background-color: rgba(44, 42, 52, 0.8);
+        border: 2px solid #7c5cff;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .card img {
+        vertical-align: middle;
+        margin-right: 15px;
+        width: 40px;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      p {
+        text-align: left;
+        font-size: 18px;
+        margin: 0;
+      }
+
+      .column h1 {
+        margin-bottom: 15px;
+      }
+
+     .footer {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        background-color: rgba(19, 14, 28, 0.9);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .footer span {
+        color: white;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .footer a {
+        color: #7c5cff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+    @media screen and (max-width: 480px) {
+      h1.homepage-title {
+        font-size: 24px;
+        text-align: center;
+        max-width: auto;
+      }
+
+      .icon {
+        position: absolute;
+        left: 20px;
+        height: 40px;
+      }
+
+      .columns-container {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+      }
+
+      .emoji-button {
+        font-size: 28px;
+      }
+
+      .card img {
+        max-width: auto;
+      }
+
+      .footer {
+        font-size: 11px;
+        white-space: nowrap;
+      }
+
+      .footer span {
+        font-size: 11px;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    </style>
+
+    <title>Homepage</title>
+
+  <body>
+    <div class="header">
+      <img class="icon" src="https://avatars.githubusercontent.com/u/156332097?v=4" alt="icon">
+      <h1 class="homepage-title">Homepage</h1>
+      <a href="#" class="emoji-link">
+        <button class="emoji-button">🏠</button>
+      </a>
+    </div>
+
+    <div class="columns-container">
+      <div class="column">
+        <h1 class="ai">🤖 AI</h1>
+        <a href="http://chat.com/" class="card">
+          <img src="https://cdn.oaistatic.com/assets/favicon-32x32-p4ktpm1x.webp" alt="ChatGPT" />
+          <p>ChatGPT</p>
+        </a>
+        <a href="https://www.perplexity.ai/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico" alt="Perplexity" />
+          <p>Perplexity</p>
+        </a>
+        <a href="https://chat.mistral.ai/chat" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/mistral.ai.ico" alt="Mistral" />
+          <p>Mistral</p>
+        </a>
+        <a href="https://duckduckgo.com/?q=DuckDuckGo%20AI%20Chat&ia=chat&duckai=1" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico" alt="Duck AI" />
+          <p>Duck AI</p>
+        </a>
+        <a href="https://consensus.app/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/consensus.app.ico" alt="Consensus" />
+          <p>Consensus</p>
+        </a>
+      </div>
+
+      <div class="column">
+        <h1 class="news">📰 News</h1>
+        <a href="https://alternativeto.net/" class="card">
+          <img src="https://alternativeto.net/static/icons/a2/favicon.ico" alt="AlternativeTo" />
+          <p>AlternativeTo</p>
+        </a>
+        <a href="https://cyberinsider.com/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/cyberinsider.com.ico" alt="CyberInsider" />
+          <p>CyberInsider</p>
+        </a>
+        <a href="https://arstechnica.com/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/arstechnica.com.ico" alt="Ars Technica" />
+          <p>Ars Technica</p>
+        </a>
+        <a href="https://eff.org/" class="card">
+          <img src="https://www.eff.org/sites/all/themes/frontier/favicon.ico" alt="EFF" />
+          <p>EFF</p>
+        </a>
+        <a href="https://thehackernews.com/" class="card">
+          <img src="https://thehackernews.com/downloads/favicon.ico" alt="The Hacker News" />
+          <p>The Hacker News</p>
+        </a>
+      </div>
+
+      <div class="column">
+        <h1 class="vet">🐶 Veterinary</h1>
+        <a href="https://www.cliniciansbrief.com/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/www.cliniciansbrief.com.ico" alt="Clinician's Brief" />
+          <p>Clinician's Brief</p>
+        </a>
+        <a href="https://www.dvm360.com/" class="card">
+          <img src="https://www.dvm360.com/favicon.ico" alt="DVM360" />
+          <p>DVM360</p>
+        </a>
+        <a href="https://www.vetsmart.com.br" class="card">
+          <img src="https://www.vetsmart.com.br/css/images/favicon.ico" alt="VetSmart" />
+          <p>VetSmart</p>
+        </a>
+        <a href="https://wsava.org/" class="card">
+          <img src="https://150826095.v2.pressablecdn.com/wp-content/uploads/2024/04/cropped-favicon-wsava-32x32.png" alt="WSAVA" />
+          <p>WSAVA</p>
+        </a>
+      </div>
+
+      <div class="column">
+        <h1 class="code">⚙️ Code</h1>
+        <a href="https://roadmap.sh/" class="card">
+          <img src="https://roadmap.sh/manifest/favicon.ico" alt="Roadmap.sh" />
+          <p>roadmap.sh</p>
+        </a>
+        <a href="https://cheatsheets.zip/" class="card">
+          <img src="https://cheatsheets.zip/images/favicon.png?v=1" alt="Cheatsheets" />
+          <p>Cheatsheets</p>
+        </a>
+        <a href="https://www.w3schools.com/" class="card">
+          <img src="https://www.w3schools.com/favicon.ico" alt="W3Schools" />
+          <p>W3Schools</p>
+        </a>
+      </div>
+
+      <div class="column">
+        <h1 class="lifestyle">🍹 Lifestyle</h1>
+        <a href="https://www.becomingminimalist.com/becoming-minimalist-start-here/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/www.becomingminimalist.com.ico" alt="Becoming Minimalist" />
+          <p>Becoming a Minimalist</p>
+        </a>
+        <a href="https://www.healthline.com/fitness" class="card">
+          <img src="https://images-prod.healthline.com/hlcmsresource/images/frontend-static/favicon/hl-logo-logomark-circle-black.ico" alt="Healthline" />
+          <p>Healthline</p>
+        </a>
+      </div>
+
+      <div class="column">
+        <h1 class="db">🗃️ Databases</h1>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/" class="card">
+          <img src="https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico" alt="PubMed" />
+          <p>PubMed</p>
+        </a>
+        <a href="https://guides.lib.vt.edu/oer/vetmed" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/lib.vt.edu.ico" alt="Virginia Tech" />
+          <p>Virginia Tech</p>
+        </a>
+        <a href="https://www.vin.com/apputil/content/defaultadv1.aspx?pId=19840" class="card">
+          <img src="https://www.vin.com/favicon-32x32.png" alt="Vin" />
+          <p>Vin</p>
+        </a>
+        <a href="https://github.com/hackerkid/Mind-Expanding-Books#readme" class="card">
+          <img src="https://github.githubassets.com/favicons/favicon.png" alt="Books" />
+          <p>Books</p>
+        </a>
+    </div>
+
+      <div class="column">
+        <h1 class="privacy">🔐 Privacy</h1>
+        <a href="https://www.privacytools.io/" class="card">
+          <img src="https://www.privacytools.io/img/favicons/favicon-32x32.png" alt="PrivacyTools" />
+          <p>PrivacyTools</p>
+        </a>
+        <a href="https://privacytests.org/" class="card">
+          <img src="https://external-content.duckduckgo.com/ip3/privacytests.org.ico" alt="PrivacyTests" />
+          <p>PrivacyTests</p>
+        </a>
+        <a href="https://browserleaks.com/" class="card">
+          <img src="https://browserleaks.com/favicon.ico" alt="BrowserLeaks" />
+          <p>BrowserLeaks</p>
+        </a>
+      </div>
+
+    <div class="footer">
+      <p>
+        <a href="https://janpstrunn.github.io">Website</a> |
+        <a href="https://github.com/janpstrunn">Github</a> |
+        <a href="https://mastodon.social/@janpstrunn">Mastodon</a>
+      </p>
+      <span style="padding-right: 25px;">Created by Janpstrunn</span>
+    </div>
+  </body>
+</html>
