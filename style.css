@@ -284,13 +284,17 @@ p {
     overflow-x: hidden;
     padding: 0 10px;
     width: 100%;
-    width: 100%;
   }
 
   .column {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
   }
 
   .icon {
