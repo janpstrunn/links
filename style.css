@@ -3,7 +3,7 @@ html {
   background-image: url("https://giffiles.alphacoders.com/215/215595.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: auto;
+  overflow-x: visible;
   overflow-y: scroll;
   width: 100%;
 }
@@ -29,7 +29,6 @@ button {
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
-  width: 100%;
 }
 
 button:hover {
