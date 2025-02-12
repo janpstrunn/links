@@ -293,14 +293,9 @@ p {
     width: 100%;
   }
 
-  .card {
-    width: 100%;
-  }
-
   .icon {
     height: 40px;
     left: 20px;
-    position: absolute;
   }
 
   .emoji-button {
