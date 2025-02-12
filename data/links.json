@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ai",
+    "sub_id": "Chat Bot",
+    "title": "ChatGPT",
+    "url": "http://chat.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/chat.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chat Bot",
+    "title": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chat Bot",
+    "title": "Mistral",
+    "url": "https://chat.mistral.ai/chat",
+    "icon": "https://external-content.duckduckgo.com/ip3/chat.mistral.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chat Bot",
+    "title": "Duck AI",
+    "url": "https://duckduckgo.com/?q=DuckDuckGo%20AI%20Chat&ia=chat&duckai=1",
+    "icon": "https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Leonardo AI",
+    "url": "https://app.leonardo.ai",
+    "icon": "https://external-content.duckduckgo.com/ip3/app.leonardo.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Loras.dev",
+    "url": "https://www.loras.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.loras.dev.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "TTS",
+    "title": "Eleven Labs",
+    "url": "https://elevenlabs.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/elevenlabs.io.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "TTS",
+    "title": "PI AI",
+    "url": "https://pi.ai/talk",
+    "icon": "https://external-content.duckduckgo.com/ip3/pi.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Research",
+    "title": "Consensus",
+    "url": "https://consensus.app/",
+    "icon": "https://external-content.duckduckgo.com/ip3/consensus.app.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Research",
+    "title": "SciSpace",
+    "url": "https://typeset.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/typeset.io.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Libraries",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "icon": "https://external-content.duckduckgo.com/ip3/huggingface.co.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chat Bot",
+    "title": "Gemini",
+    "url": "https://gemini.google.com",
+    "icon": "https://external-content.duckduckgo.com/ip3/gemini.google.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Stable Diffusion",
+    "url": "https://stabledifffusion.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/stabledifffusion.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "AlternativeTo",
+    "url": "https://alternativeto.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/alternativeto.net.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "CyberInsider",
+    "url": "https://cyberinsider.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cyberinsider.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "General",
+    "title": "ArsTechnica",
+    "url": "https://arstechnica.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/arstechnica.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Orgs",
+    "title": "EFF",
+    "url": "https://eff.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/eff.org.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "The Hacker News",
+    "url": "https://thehackernews.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/thehackernews.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "News",
+    "title": "Clinicians Brief",
+    "url": "https://www.cliniciansbrief.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cliniciansbrief.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "News",
+    "title": "DVM360",
+    "url": "https://www.dvm360.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.dvm360.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tech",
+    "title": "VetSmart",
+    "url": "https://www.vetsmart.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vetsmart.com.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Guidelines",
+    "title": "WSAVA",
+    "url": "https://wsava.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/wsava.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Cheat Sheets",
+    "title": "Cheetsheets",
+    "url": "https://cheatsheets.zip/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cheatsheets.zip.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn Python",
+    "url": "https://www.learnpython.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn GO",
+    "url": "https://go.dev/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn C++",
+    "url": "https://www.learn-cpp.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-cpp.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn Bash",
+    "url": "https://learn-bash.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/learn-bash.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn Java",
+    "url": "https://dev.java/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/dev.java.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Learn",
+    "title": "Learn Rust",
+    "url": "https://www.rust-lang.org/learn",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.rust-lang.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Courses",
+    "title": "FreeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Courses",
+    "title": "LabEx",
+    "url": "https://labex.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/labex.io.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Guide",
+    "title": "ATBS",
+    "url": "https://automatetheboringstuff.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
+  },
+  {
+    "id": "lifestyle",
+    "sub_id": "Philosophy",
+    "title": "Becoming a Minimalist",
+    "url": "https://www.becomingminimalist.com/becoming-minimalist-start-here/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.becomingminimalist.com.ico"
+  },
+  {
+    "id": "lifestyle",
+    "sub_id": "Health",
+    "title": "Healthline",
+    "url": "https://www.healthline.com/fitness",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.healthline.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Vet",
+    "title": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "icon": "https://external-content.duckduckgo.com/ip3/pubmed.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Vet",
+    "title": "Virginia Tech",
+    "url": "https://guides.lib.vt.edu/oer/vetmed",
+    "icon": "https://external-content.duckduckgo.com/ip3/guides.lib.vt.edu.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Vet",
+    "title": "Vin",
+    "url": "https://www.vin.com/apputil/content/defaultadv1.aspx?pId=19840",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vin.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Mind Expand Books",
+    "url": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "privacy",
+    "sub_id": "Guides",
+    "title": "PrivacyTools",
+    "url": "https://www.privacytools.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.privacytools.io.ico"
+  },
+  {
+    "id": "privacy",
+    "sub_id": "Tests",
+    "title": "PrivacyTests",
+    "url": "https://privacytests.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/privacytests.org.ico"
+  },
+  {
+    "id": "privacy",
+    "sub_id": "Tests",
+    "title": "BrowserLeaks",
+    "url": "https://browserleaks.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/browserleaks.com.ico"
+  }
+]
