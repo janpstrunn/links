@@ -269,6 +269,13 @@ p {
     width: 100%;
   }
 
+  button {
+    display: block;
+    width: auto;
+    margin: 10px auto;
+    text-align: center;
+  }
+
   .columns-container {
     align-items: center;
     box-sizing: border-box;
