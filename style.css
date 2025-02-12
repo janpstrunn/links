@@ -5,6 +5,7 @@ html {
   background-size: cover;
   overflow-x: auto;
   overflow-y: scroll;
+  width: 100%;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
 }
 
 button {
@@ -29,6 +29,7 @@ button {
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
+  width: 100%;
 }
 
 button:hover {
