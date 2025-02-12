@@ -101,16 +101,27 @@
           const allSections = document.querySelectorAll(".section");
 
           window.switchSection = function (sectionId) {
-            allSections.forEach((section) => section.classList.add("hidden"));
-            let targetSection = document.getElementById(sectionId);
-            if (targetSection) targetSection.classList.remove("hidden");
+            const targetSection = document.getElementById(sectionId);
 
+            // Hide all sections
+            allSections.forEach((section) => section.classList.add("hidden"));
+
+            if (targetSection) {
+              targetSection.classList.remove("hidden");
+            }
+
+            // Remove "active" class from all buttons
             document
               .querySelectorAll(".section-selector button")
               .forEach((button) => button.classList.remove("active"));
+
+            // Add "active" class to the clicked button
             document
               .querySelector(`button[onclick="switchSection('${sectionId}')"]`)
               .classList.add("active");
+
+            // Update the URL hash without causing automatic scrolling
+            history.pushState(null, null, `#${sectionId}`);
           };
 
           if (Object.keys(groupedLinks).length > 0) {
