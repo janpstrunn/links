@@ -64,7 +64,6 @@ button:hover {
   height: 80px;
   left: 20px;
   border-radius: 20px;
-  position: absolute;
 }
 
 h1.homepage-title {
@@ -287,10 +286,17 @@ p {
   }
 
   .column {
+    box-sizing: border-box;
+    margin: 0 auto;
     padding: 10px;
     text-align: center;
-    box-sizing: border-box;
     width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
   }
 
   .icon {
