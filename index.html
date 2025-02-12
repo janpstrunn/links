@@ -8,18 +8,21 @@
   </head>
 
   <body>
+    <!-->Main Header</!-->
     <div class="header">
+      <!-->My Logo</!-->
       <img
         class="icon"
         src="https://avatars.githubusercontent.com/u/156332097?v=4"
         alt="icon"
       />
       <h1 class="homepage-title">Homepage</h1>
-      <a href="#" class="emoji-link">
+      <a href="https://github.com/janpstrunn/homepage" class="emoji-link">
         <button class="emoji-button">🏠</button>
       </a>
     </div>
 
+    <!-->Buttons</!-->
     <div class="section-selector">
       <button class="ai" onclick="switchSection('ai')">🤖 AI</button>
       <button class="news" onclick="switchSection('news')">📰 News</button>
@@ -36,6 +39,7 @@
       </button>
     </div>
 
+    <!-->Columns</!-->
     <div id="content-container"></div>
 
     <div class="footer">
@@ -48,6 +52,7 @@
     </div>
 
     <script>
+      // Fetch local data/links.json
       fetch("data/links.json")
         .then((response) => response.json())
         .then((links) => {
@@ -61,13 +66,26 @@
             groupedLinks[link.id][link.sub_id].push(link);
           });
 
+          // Set Emoji Variables
+          const emojiMap = {
+            ai: "🤖",
+            news: "📰",
+            vet: "🐶",
+            code: "⚙️",
+            lifestyle: "🍹",
+            db: "🗃️",
+            privacy: "🔐",
+          };
+
+          // Construct the columns
           Object.keys(groupedLinks).forEach((id) => {
             let sectionDiv = document.createElement("div");
             sectionDiv.className = "section hidden";
             sectionDiv.id = id;
 
+            const emoji = emojiMap[id] || "";
             let sectionTitle = document.createElement("h1");
-            sectionTitle.textContent = id.toUpperCase(); // Use 'id' as section title
+            sectionTitle.textContent = `${emoji} ${id.toUpperCase()}`;
             sectionTitle.className = `${id}`;
             sectionDiv.appendChild(sectionTitle);
 
@@ -100,6 +118,8 @@
 
           const allSections = document.querySelectorAll(".section");
 
+          // Section Switching and Hashing
+
           window.switchSection = function (sectionId) {
             const targetSection = document.getElementById(sectionId);
 
@@ -120,9 +140,10 @@
               .querySelector(`button[onclick="switchSection('${sectionId}')"]`)
               .classList.add("active");
 
-            // Update the URL hash without causing automatic scrolling
             history.pushState(null, null, `#${sectionId}`);
           };
+
+          // Switch to the first section at start
 
           if (Object.keys(groupedLinks).length > 0) {
             const firstSection = Object.keys(groupedLinks)[0];
