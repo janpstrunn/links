@@ -1,67 +1,96 @@
 html {
+  background-attachment: fixed;
   background-image: url("https://giffiles.alphacoders.com/215/215595.gif");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: Arial, sans-serif;
-  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(19, 14, 28, 0.9);
-  border-radius: 20px;
-  width: 100%;
-  height: 100px;
-  margin-top: 10px;
-  position: relative;
-  padding: 0 20px;
-  border: 2px solid #7c5cff;
-  box-sizing: border-box;
-}
-
-.icon {
-  position: absolute;
-  left: 20px;
-  height: 80px;
-}
-
-h1.homepage-title {
-  color: white;
-  font-size: 36px;
-  text-align: center;
-  font-weight: bold;
+button {
   background-color: rgba(19, 14, 28, 0.9);
   border: 2px solid #7c5cff;
   border-radius: 10px;
-  padding: 10px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #f067fc;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: rgba(240, 103, 252, 0.5);
+  text-shadow: 0 0 20px #f067fc;
+}
+
+.header {
+  align-items: center;
+  background-color: rgba(19, 14, 28, 0.9);
+  border: 2px solid #7c5cff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  height: 100px;
+  justify-content: center;
   margin: 0;
+  padding: 0 20px;
   position: relative;
-  z-index: 1;
-  text-shadow: 0 0 20px white;
+  width: 100%;
+}
+
+.icon {
+  height: 80px;
+  left: 20px;
+  position: absolute;
+}
+
+h1.homepage-title {
+  background-color: rgba(19, 14, 28, 0.9);
+  border: 2px solid #7c5cff;
+  border-radius: 10px;
+  color: white;
   flex-grow: 1;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
   max-width: 50%;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 0 20px white;
+  z-index: 1;
 }
 
 .emoji-button {
   background: transparent;
   border: none;
-  font-size: 36px;
-  cursor: pointer;
   color: white;
-  z-index: 1;
+  cursor: pointer;
+  font-size: 36px;
   text-shadow: 0 0 20px white;
+  z-index: 1;
 }
 
 .emoji-button:hover {
@@ -79,15 +108,15 @@ h1.homepage-title {
 }
 
 h1 {
-  color: white;
-  font-size: 32px;
-  text-align: center;
-  font-weight: bold;
   background-color: rgba(19, 14, 28, 0.9);
   border: 2px solid #7c5cff;
   border-radius: 10px;
-  padding: 10px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
   margin: 0;
+  padding: 10px;
+  text-align: center;
   text-shadow: 0 0 5px white;
 }
 
@@ -130,37 +159,37 @@ h1 {
 
 .columns-container {
   display: flex;
-  justify-content: flex-start;
-  width: 100%;
   flex-wrap: nowrap;
+  justify-content: flex-start;
   overflow-x: auto;
   padding: 10px;
+  width: 100%;
 }
 
 .column {
   flex: 0 0 auto;
+  margin: 10px;
   padding: 15px;
   text-align: center;
-  margin: 10px;
 }
 
 .card {
+  align-items: center;
   background-color: rgba(44, 42, 52, 0.8);
   border: 2px solid #7c5cff;
   border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  transition: transform 0.3s ease-in-out;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  padding: 15px;
   text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card img {
-  vertical-align: middle;
   margin-right: 15px;
+  vertical-align: middle;
   width: 40px;
 }
 
@@ -174,9 +203,9 @@ a {
 }
 
 p {
-  text-align: left;
   font-size: 16px;
   margin: 0;
+  text-align: left;
 }
 
 .column h1 {
@@ -184,32 +213,32 @@ p {
 }
 
 .footer {
-  width: 100%;
-  text-align: center;
-  padding: 12px;
+  align-items: center;
   background-color: rgba(19, 14, 28, 0.9);
-  position: fixed;
   bottom: 0;
-  left: 0;
-  font-size: 14px;
   color: white;
   display: flex;
+  font-size: 14px;
   justify-content: space-between;
-  align-items: center;
+  left: 0;
+  padding: 12px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
 }
 
 .footer span {
   color: white;
   font-size: 14px;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .footer a {
   color: #7c5cff;
-  text-decoration: none;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 .footer a:hover {
@@ -219,8 +248,8 @@ p {
 @media screen and (max-width: 480px) {
   h1.homepage-title {
     font-size: 24px;
-    text-align: center;
     max-width: auto;
+    text-align: center;
   }
 
   h1 {
@@ -232,9 +261,9 @@ p {
   }
 
   .icon {
-    position: absolute;
-    left: 20px;
     height: 40px;
+    left: 20px;
+    position: absolute;
   }
 
   .columns-container {
@@ -258,8 +287,8 @@ p {
 
   .footer span {
     font-size: 10px;
-    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: wrap;
   }
 }
