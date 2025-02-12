@@ -17,6 +17,19 @@ body {
   padding: 0;
 }
 
+.section-selector {
+  background-color: rgba(19, 14, 28, 0.9);
+  border: 2px solid #7c5cff;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+  transition-duration: 0.4s;
+}
+
 button {
   background-color: rgba(19, 14, 28, 0.9);
   border: 2px solid #7c5cff;
