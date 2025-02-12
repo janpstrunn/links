@@ -64,6 +64,7 @@ button:hover {
   height: 80px;
   left: 20px;
   border-radius: 20px;
+  z-index: 1;
 }
 
 h1.homepage-title {
@@ -298,11 +299,6 @@ p {
     padding: 10px;
     text-align: center;
     width: 100%;
-  }
-
-  .icon {
-    height: 40px;
-    left: 20px;
   }
 
   .emoji-button {
