@@ -3,11 +3,10 @@ html {
   background-image: url("https://giffiles.alphacoders.com/215/215595.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: cover;
   min-width: 100vw;
   overflow-x: scroll;
   overflow-y: hidden;
-  width: max-content;
+  width: 100%;
 }
 
 body {
@@ -54,6 +53,7 @@ button {
   justify-content: center;
   margin-bottom: 10px;
   padding: 10px 20px;
+  position: relative;
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
@@ -93,7 +93,7 @@ button:hover {
   text-align: center;
   top: 0;
   width: 100%;
-  z-index: 2000; /* Higher than .section and other elements */
+  z-index: 2000;
 }
 
 .header span {
@@ -325,7 +325,6 @@ p {
 }
 
 /* Header Theming */
-
 .ai {
   color: #46d9ff;
   text-shadow: 0 0 5px #46d9ff;
@@ -361,63 +360,78 @@ p {
   text-shadow: 0 0 5px #fc5f62;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+  .section-selector {
+    top: calc(60px + 5vh);
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+  }
+
   h1.homepage-title {
     font-size: 24px;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
   }
 
   h1 {
-    flex-direction: column;
-    font-size: 16px;
-    width: 100%;
-  }
-
-  button {
-    display: block;
-    width: auto;
-    margin: 10px auto;
+    font-size: 24px;
   }
 
   .columns-container {
-    align-items: center;
-    box-sizing: border-box;
-    display: -webkit-box;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: flex-start;
-    max-width: 100%;
-    overflow: hidden;
-    overflow-x: hidden;
-    padding: 0 10px;
-    width: 100%;
+    height: auto;
+    padding: 10px;
   }
 
   .column {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
     width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+
+  .footer span {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1.homepage-title {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
   }
 
   .emoji-button {
-    height: 40px;
-    right: 20px;
     font-size: 24px;
+    height: 40px;
   }
 
   .footer {
     font-size: 10px;
-    white-space: nowrap;
   }
 
-  .footer span {
-    font-size: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: wrap;
+  .columns-container {
+    padding: 10px;
+  }
+
+  .column {
+    width: 100%;
+    margin: 5px 0;
   }
 }
