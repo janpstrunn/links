@@ -7,6 +7,7 @@ html {
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
+  height: 100%;
 }
 
 body {
@@ -239,8 +240,6 @@ h2 {
 
 .column {
   margin: 10px;
-  margin-top: 60px;
-  max-height: auto;
   overflow-y: auto;
   padding: 15px;
   position: relative;
@@ -402,6 +401,10 @@ p {
     overflow-y: hidden;
   }
 
+  .header {
+    position: fixed;
+  }
+
   h1.homepage-title {
     font-size: 16px;
   }
@@ -423,6 +426,7 @@ p {
 
   .column {
     flex-direction: column;
+    margin-top: 90px;
   }
 
   .emoji-button {
