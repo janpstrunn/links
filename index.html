@@ -10,15 +10,21 @@
   <body>
     <div class="header">
       <!-- My Logo -->
-      <img
-        class="icon"
-        src="https://avatars.githubusercontent.com/u/156332097?v=4"
-        alt="icon"
-      />
-      <h1 class="homepage-title">Homepage</h1>
-      <a href="https://github.com/janpstrunn/homepage" class="emoji-link">
-        <button class="emoji-button">🏠</button>
-      </a>
+      <span>
+        <img
+          class="icon"
+          src="https://avatars.githubusercontent.com/u/156332097?v=4"
+          alt="icon"
+        />
+      </span>
+      <span style="flex-grow: 1; text-align: center">
+        <h1 class="homepage-title">Homepage</h1>
+      </span>
+      <span>
+        <a href="https://github.com/janpstrunn/homepage" class="emoji-link">
+          <button class="emoji-button">🏠</button>
+        </a>
+      </span>
     </div>
 
     <!-- Buttons -->
@@ -83,7 +89,7 @@
             sectionDiv.id = id;
 
             const emoji = emojiMap[id] || "";
-            let sectionTitle = document.createElement("h1");
+            let sectionTitle = document.createElement("h2");
             sectionTitle.textContent = `${emoji} ${id.toUpperCase()}`;
             sectionTitle.className = `${id}`;
             sectionDiv.appendChild(sectionTitle);

@@ -252,8 +252,8 @@
     "icon": "https://external-content.duckduckgo.com/ip3/www.healthline.com.ico"
   },
   {
-    "id": "db",
-    "sub_id": "Vet",
+    "id": "vet",
+    "sub_id": "Articles",
     "title": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/",
     "icon": "https://external-content.duckduckgo.com/ip3/pubmed.ncbi.nlm.nih.gov.ico"
@@ -266,8 +266,8 @@
     "icon": "https://external-content.duckduckgo.com/ip3/guides.lib.vt.edu.ico"
   },
   {
-    "id": "db",
-    "sub_id": "Vet",
+    "id": "vet",
+    "sub_id": "Guidelines",
     "title": "Vin",
     "url": "https://www.vin.com/apputil/content/defaultadv1.aspx?pId=19840",
     "icon": "https://external-content.duckduckgo.com/ip3/www.vin.com.ico"
@@ -299,5 +299,145 @@
     "title": "BrowserLeaks",
     "url": "https://browserleaks.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/browserleaks.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Anna's Archive",
+    "url": "https://annas-archive.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Virtual Labs",
+    "title": "Necropsy Show and Tell",
+    "url": "https://secure.vet.cornell.edu/nst/toc.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/secure.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Virtual Labs",
+    "title": "Histology Guide",
+    "url": "https://histologyguide.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/histologyguide.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Virtual Labs",
+    "title": "Horse Dissecation",
+    "url": "https://secure.vet.cornell.edu/oed/Horsedissection/",
+    "icon": "https://external-content.duckduckgo.com/ip3/secure.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Learn",
+    "title": "Aula de Anatomia",
+    "url": "https://www.auladeanatomia.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.auladeanatomia.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Courses",
+    "title": "FioCruz",
+    "url": "https://campusvirtual.fiocruz.br/portal/?q=inscricao-selecao&field_unidades_target_id_entityreference_filter=All",
+    "icon": "https://external-content.duckduckgo.com/ip3/campusvirtual.fiocruz.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Courses",
+    "title": "CPT Cursos",
+    "url": "https://www.cptcursospresenciais.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cptcursospresenciais.com.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Courses",
+    "title": "Vet Profissional",
+    "url": "https://www.vetprofissional.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vetprofissional.com.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "BioMedCentral",
+    "url": "https://www.biomedcentral.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.biomedcentral.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "Britannica",
+    "url": "https://www.britannica.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.britannica.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "MDPI",
+    "url": "https://www.mdpi.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mdpi.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tech",
+    "title": "Mendeley",
+    "url": "https://www.mendeley.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mendeley.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "Microbiology Research",
+    "url": "https://www.microbiologyresearch.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.microbiologyresearch.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "Nature",
+    "url": "https://www.nature.com/srep/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.nature.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "PLOS",
+    "url": "https://journals.plos.org/plosone/",
+    "icon": "https://external-content.duckduckgo.com/ip3/journals.plos.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "PNAS",
+    "url": "https://www.pnas.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.pnas.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Articles",
+    "title": "SciElo",
+    "url": "https://scielo.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/scielo.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "News",
+    "title": "Vet Cornell",
+    "url": "https://www.vet.cornell.edu/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Books",
+    "title": "Immunology - NCBI",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK7795/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tech",
+    "title": "Zotero",
+    "url": "https://www.zotero.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.zotero.org.ico"
   }
 ]
