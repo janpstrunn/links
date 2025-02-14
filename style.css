@@ -24,7 +24,7 @@ body {
 .section-selector {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
   position: fixed;
   top: calc(60px + 5vh);
@@ -354,42 +354,4 @@ p {
 .privacy {
   color: #fc5f62;
   text-shadow: 0 0 5px #fc5f62;
-}
-
-@media screen and (max-width: 480px) {
-  html {
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-
-  h1.homepage-title {
-    font-size: 20px;
-  }
-
-  h1 {
-    font-size: 16px;
-  }
-
-  .content-container {
-    flex-direction: column;
-    overflow-x: scroll;
-  }
-
-  .column {
-    flex-direction: column;
-  }
-
-  .emoji-button {
-    font-size: 20px;
-  }
-
-  .footer {
-    font-size: 10px;
-    white-space: nowrap;
-  }
-
-  .footer span {
-    font-size: 10px;
-  }
 }
