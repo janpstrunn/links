@@ -361,6 +361,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
   .section-selector {
     top: calc(60px + 5vh);
     flex-direction: column;
@@ -383,8 +387,13 @@ p {
     font-size: 24px;
   }
 
+  button {
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
   .columns-container {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     padding: 10px;
   }
