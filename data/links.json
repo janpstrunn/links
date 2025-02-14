@@ -259,8 +259,8 @@
     "icon": "https://external-content.duckduckgo.com/ip3/pubmed.ncbi.nlm.nih.gov.ico"
   },
   {
-    "id": "db",
-    "sub_id": "Vet",
+    "id": "vet",
+    "sub_id": "Guidelines",
     "title": "Virginia Tech",
     "url": "https://guides.lib.vt.edu/oer/vetmed",
     "icon": "https://external-content.duckduckgo.com/ip3/guides.lib.vt.edu.ico"
@@ -439,5 +439,26 @@
     "title": "Zotero",
     "url": "https://www.zotero.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.zotero.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Books",
+    "title": "Free Programming Books",
+    "url": "https://github.com/EbookFoundation/free-programming-books#readme",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "privacy",
+    "sub_id": "Tests",
+    "title": "Cover Your Tracks",
+    "url": "https://coveryourtracks.eff.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/coveryourtracks.eff.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Wiki",
+    "title": "Arch Wiki",
+    "url": "https://wiki.archlinux.org/title/Main_page",
+    "icon": "https://external-content.duckduckgo.com/ip3/wiki.archlinux.org.ico"
   }
 ]
