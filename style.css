@@ -23,17 +23,15 @@ body {
 .section-selector {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 10px;
   position: fixed;
   top: calc(60px + 5vh);
+  z-index: 3000;
   width: auto;
-  overflow-x: auto;
-  z-index: 2000;
-}
-
-.section-selector > * {
-  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0 10px;
+  justify-content: flex-start;
 }
 
 .section {
@@ -123,7 +121,6 @@ h1.homepage-title {
   height: 60%;
   justify-content: center;
   left: 35%;
-  margin: 0;
   padding: 8px;
   position: absolute;
   right: 35%;
@@ -224,7 +221,7 @@ h2 {
   overflow: hidden;
   position: relative;
   width: auto;
-  z-index: 900;
+  z-index: 500;
 }
 
 .columns-container {
@@ -241,9 +238,9 @@ h2 {
 }
 
 .column {
-  flex: 0 0 auto;
   margin: 10px;
-  max-height: 60vh;
+  margin-top: 60px;
+  max-height: auto;
   overflow-y: auto;
   padding: 15px;
   position: relative;
@@ -386,6 +383,50 @@ p {
 
   .emoji-button {
     font-size: 20px;
+  }
+
+  .footer {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .footer span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  h1.homepage-title {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .section-selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .content-container {
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .emoji-button {
+    font-size: 16px;
   }
 
   .footer {
