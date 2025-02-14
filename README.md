@@ -1,5 +1,5 @@
-# Links
+# Links: A Browser Homepage
 
-This is a simple homepage intended to be used as a browser main page to quickly access some bookmarks. This is hardcoded to my needs, though.
+This project aims to improve the experience of starting a browser with a visually pleasing interface featuring all the best bookmarks, and also being a bridge for easy sharing those bookmarks to other people.
 
-I've played hardly with HTML and CSS here to a quite cluttering result, in order to learn these languages.
+All data is fetched from a json file, ensuring the maintenance process is easier, which can easily added throught the `add-links.sh` script, that uses `jq` for that.
