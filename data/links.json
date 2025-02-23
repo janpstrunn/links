@@ -126,15 +126,15 @@
     "icon": "https://external-content.duckduckgo.com/ip3/thehackernews.com.ico"
   },
   {
-    "id": "vet",
-    "sub_id": "News",
+    "id": "news",
+    "sub_id": "Vet",
     "title": "Clinicians Brief",
     "url": "https://www.cliniciansbrief.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.cliniciansbrief.com.ico"
   },
   {
-    "id": "vet",
-    "sub_id": "News",
+    "id": "news",
+    "sub_id": "Vet",
     "title": "DVM360",
     "url": "https://www.dvm360.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.dvm360.com.ico"
@@ -232,7 +232,7 @@
   },
   {
     "id": "code",
-    "sub_id": "Guide",
+    "sub_id": "Learn",
     "title": "ATBS",
     "url": "https://automatetheboringstuff.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
@@ -420,8 +420,8 @@
     "icon": "https://external-content.duckduckgo.com/ip3/scielo.org.ico"
   },
   {
-    "id": "vet",
-    "sub_id": "News",
+    "id": "news",
+    "sub_id": "Vet",
     "title": "Vet Cornell",
     "url": "https://www.vet.cornell.edu/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.vet.cornell.edu.ico"
