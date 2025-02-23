@@ -28,11 +28,11 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
+  overflow-x: scroll;
   justify-content: flex-start;
   padding: 0 10px;
   position: fixed;
   top: calc(60px + 5vh);
-  width: auto;
   z-index: 3000;
 }
 
@@ -55,7 +55,6 @@ button {
   font-size: 16px;
   justify-content: center;
   margin-bottom: 10px;
-  width: 50%;
   overflow-x: auto;
   padding: 10px 20px;
   position: relative;
@@ -123,13 +122,13 @@ h1.homepage-title {
   font-weight: bold;
   height: 60%;
   justify-content: center;
-  left: 34%;
+  left: 30%;
   padding: 8px;
   position: absolute;
-  right: 34%;
+  right: 30%;
   text-align: center;
   text-shadow: 0 0 20px white;
-  width: 34%;
+  width: 40%;
 }
 
 .emoji-button {
@@ -379,4 +378,21 @@ p {
 .privacy {
   color: #fc5f62;
   text-shadow: 0 0 5px #fc5f62;
+}
+
+@media screen and (max-width: 480px) {
+  .section-selector {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    padding: 0 10px;
+    width: 50%;
+    position: fixed;
+    top: calc(60px + 5vh);
+    z-index: 3000;
+  }
 }
