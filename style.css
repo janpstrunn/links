@@ -389,7 +389,7 @@ p {
     z-index: 3000;
   }
   .button {
-    width: 100%;
+    width: max-content;
     height: auto;
   }
   .footer {
