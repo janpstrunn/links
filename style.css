@@ -56,7 +56,7 @@ button {
   justify-content: center;
   margin-bottom: 10px;
   max-width: fit-content;
-  min-width: 100px;
+  min-width: 120px;
   overflow-x: hidden;
   padding: 10px 20px;
   position: relative;
@@ -140,6 +140,8 @@ h1.homepage-title {
   color: white;
   cursor: pointer;
   font-size: 32px;
+  max-width: 100%;
+  min-width: 100%;
   margin-top: 0px;
   padding: 0;
   width: auto;
