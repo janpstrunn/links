@@ -75,7 +75,7 @@ button:hover {
 }
 
 .active {
-  background-color: rgba(240, 103, 252, 0.5);
+  background-color: rgba(74, 11, 79, 0.5);
   text-shadow: 0 0 20px #f067fc;
 }
 
@@ -388,7 +388,7 @@ p {
     top: calc(60px + 5vh);
     z-index: 3000;
   }
-  .button {
+  button {
     width: max-content;
     height: auto;
   }
