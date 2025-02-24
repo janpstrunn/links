@@ -61,6 +61,7 @@ button {
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
+  width: max-content;
   z-index: 2000;
 }
 
@@ -388,17 +389,10 @@ p {
     top: calc(60px + 5vh);
     z-index: 3000;
   }
-  button {
-    width: max-content;
-    height: auto;
-  }
   .footer {
     font-size: 10px;
   }
   .footer span {
-    font-size: 10px;
-  }
-  .footer a {
     font-size: 10px;
   }
 }
