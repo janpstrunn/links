@@ -55,13 +55,12 @@ button {
   font-size: 16px;
   justify-content: center;
   margin-bottom: 10px;
-  overflow-x: auto;
+  overflow-x: hidden;
   padding: 10px 20px;
   position: relative;
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
-  width: auto;
   z-index: 2000;
 }
 
@@ -390,10 +389,14 @@ p {
     overflow-x: scroll;
     justify-content: flex-start;
     padding: 0 10px;
-    width: 50%;
+    width: 80%;
     position: fixed;
     top: calc(60px + 5vh);
     z-index: 3000;
+  }
+  .button {
+    width: 100%;
+    height: auto;
   }
   .footer {
     font-size: 10px;
