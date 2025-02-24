@@ -121,14 +121,14 @@ h1.homepage-title {
   font-size: auto;
   font-weight: bold;
   height: 60%;
+  left: 25%;
+  right: 25%;
   justify-content: center;
-  left: 30%;
   padding: 8px;
   position: absolute;
-  right: 30%;
   text-align: center;
   text-shadow: 0 0 20px white;
-  width: 40%;
+  width: 50%;
 }
 
 .emoji-button {
@@ -316,7 +316,7 @@ p {
   bottom: 0;
   color: white;
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
   justify-content: space-between;
   left: 0;
   padding: 10px;
@@ -328,7 +328,7 @@ p {
 
 .footer span {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -394,5 +394,11 @@ p {
     position: fixed;
     top: calc(60px + 5vh);
     z-index: 3000;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .footer span {
+    font-size: 10px;
   }
 }
