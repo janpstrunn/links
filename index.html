@@ -144,8 +144,6 @@
             document
               .querySelector(`button[onclick="switchSection('${sectionId}')"]`)
               .classList.add("active");
-
-            history.pushState(null, null, `#${sectionId}`);
           };
 
           // Switch to the first section at start
