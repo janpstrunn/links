@@ -177,42 +177,42 @@
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages Python",
+    "title": "Learn Python",
     "url": "https://www.learnpython.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
   },
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages GO",
+    "title": "Learn GO",
     "url": "https://go.dev/learn/",
     "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
   },
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages C++",
+    "title": "Learn C++",
     "url": "https://www.learn-cpp.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.learn-cpp.org.ico"
   },
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages Bash",
+    "title": "Learn Bash",
     "url": "https://learn-bash.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/learn-bash.org.ico"
   },
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages Java",
+    "title": "Learn Java",
     "url": "https://dev.java/learn/",
     "icon": "https://external-content.duckduckgo.com/ip3/dev.java.ico"
   },
   {
     "id": "code",
     "sub_id": "Languages",
-    "title": "Languages Rust",
+    "title": "Learn Rust",
     "url": "https://www.rust-lang.org/learn",
     "icon": "https://external-content.duckduckgo.com/ip3/www.rust-lang.org.ico"
   },
