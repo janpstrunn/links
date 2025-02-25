@@ -1097,5 +1097,12 @@
     "title": "CryptPad",
     "url": "https://cryptpad.fr/",
     "icon": "https://external-content.duckduckgo.com/ip3/cryptpad.fr.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Virtual Labs",
+    "title": "Radiopaedia",
+    "url": "https://radiopaedia.org",
+    "icon": "https://external-content.duckduckgo.com/ip3/radiopaedia.org.ico"
   }
 ]
