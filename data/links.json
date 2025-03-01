@@ -1097,5 +1097,12 @@
     "title": "Radiopaedia",
     "url": "https://radiopaedia.org",
     "icon": "https://external-content.duckduckgo.com/ip3/radiopaedia.org.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Nerd Icons",
+    "url": "https://www.nerdfonts.com/cheat-sheet",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.nerdfonts.com.ico"
   }
 ]
