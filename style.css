@@ -54,7 +54,6 @@ button {
   border-radius: 10px;
   color: white;
   font-size: 16px;
-  justify-content: center;
   margin-bottom: 10px;
   max-width: 100%;
   min-width: 140px;
@@ -64,7 +63,6 @@ button {
   text-align: center;
   text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
-  -webkit-text-size-adjust: 100%;
   white-space: nowrap;
   z-index: 2000;
 }
@@ -262,9 +260,11 @@ h3 {
   background-color: rgba(19, 14, 28, 0.9);
   border-radius: 10px;
   display: flex;
+  display: grid;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
   max-width: 1200px;
   padding: 10px;
@@ -279,6 +279,10 @@ h3 {
   border-radius: 10px;
   cursor: pointer;
   display: flex;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
   justify-content: flex-start;
   max-width: 100%;
   padding: 12px;
@@ -375,7 +379,7 @@ p {
   text-shadow: 0 0 5px #fcae5f;
 }
 
-.privacy {
+.cybersec {
   color: #fc5f62;
   text-shadow: 0 0 5px #fc5f62;
 }
