@@ -1,29 +1,52 @@
 #!/bin/bash
 
 while true; do
-  echo "Enter the ID for the link:"
-  read id
+  if [ -f "./data/links.json" ]; then
+    id=$(jq -r 'map(.id) | unique[]' ./data/links.json | fzf --prompt "Enter the ID for the Link: ")
+  else
+    echo "Enter the ID for the link:"
+    read -r id
+  fi
   if [[ -z "$id" ]]; then
-    echo "Exiting..."
-    break
+    echo "Create a new ID? (y/n)"
+    read -r idcreate
+    if [ "$idcreate" == "y" ]; then
+      echo "Enter new ID:"
+      read -r id
+      newid=true
+    else
+      echo "Exiting..."
+      break
+    fi
   fi
 
-  echo "Enter the Sub ID (category or title):"
-  read sub_id
+  if [ -n "$id" ]; then
+    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ./data/links.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
+  else
+    echo "Enter the ID for the link:"
+    read -r sub_id
+  fi
   if [[ -z "$sub_id" ]]; then
-    echo "Exiting..."
-    break
+    echo "Create a new SUB-ID? (y/n)"
+    read -r idcreate
+    if [ "$idcreate" == "y" ]; then
+      echo "Enter new SUB-ID (Category):"
+      read -r id
+    else
+      echo "Exiting..."
+      break
+    fi
   fi
 
   echo "Enter the Title of the link:"
-  read title
+  read -r title
   if [[ -z "$title" ]]; then
     echo "Exiting..."
     break
   fi
 
   echo "Enter the URL of the link:"
-  read url
+  read -r url
   if [[ -z "$url" ]]; then
     echo "Exiting..."
     break
@@ -48,6 +71,9 @@ while true; do
 
   if [ $? -eq 0 ]; then
     echo "Link added successfully to links.json!"
+    if [ -n "$newid" ]; then
+      echo "You have added a new ID!"
+      echo "You must manually add a new button in the index.html!"
   else
     echo "Failed to add link!"
   fi
