@@ -47,8 +47,8 @@
       <button class="databases" onclick="switchSection('db')">
         🗃️ Databases
       </button>
-      <button class="privacy" onclick="switchSection('privacy')">
-        🔐 Privacy
+      <button class="cybersec" onclick="switchSection('cybersec')">
+        🔐 Cybersec
       </button>
       <button class="book" onclick="switchSection('book')">📚 Books</button>
       <button class="yt" onclick="switchSection('yt')">▶ Youtube</button>
@@ -81,26 +81,14 @@
             groupedLinks[link.id][link.sub_id].push(link);
           });
 
-          // Set Emoji Variables
-          const emojiMap = {
-            ai: "🤖",
-            news: "📰",
-            vet: "🐶",
-            code: "⚙️",
-            lifestyle: "🍹",
-            db: "🗃️",
-            privacy: "🔐",
-          };
-
           // Construct the columns
           Object.keys(groupedLinks).forEach((id) => {
             let sectionDiv = document.createElement("div");
             sectionDiv.className = "section hidden";
             sectionDiv.id = id;
 
-            const emoji = emojiMap[id] || "";
             let sectionTitle = document.createElement("h2");
-            sectionTitle.textContent = `${emoji} ${id.toUpperCase()}`;
+            sectionTitle.textContent = `${id.toUpperCase()}`;
             sectionTitle.className = `${id}`;
             sectionDiv.appendChild(sectionTitle);
 

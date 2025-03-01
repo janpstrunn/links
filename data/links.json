@@ -280,21 +280,21 @@
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
   },
   {
-    "id": "privacy",
+    "id": "cybersec",
     "sub_id": "Guides",
     "title": "PrivacyTools",
     "url": "https://www.privacytools.io/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.privacytools.io.ico"
   },
   {
-    "id": "privacy",
+    "id": "cybersec",
     "sub_id": "Tests",
     "title": "PrivacyTests",
     "url": "https://privacytests.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/privacytests.org.ico"
   },
   {
-    "id": "privacy",
+    "id": "cybersec",
     "sub_id": "Tests",
     "title": "BrowserLeaks",
     "url": "https://browserleaks.com/",
@@ -448,7 +448,7 @@
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
   },
   {
-    "id": "privacy",
+    "id": "cybersec",
     "sub_id": "Tests",
     "title": "Cover Your Tracks",
     "url": "https://coveryourtracks.eff.org/",
@@ -658,13 +658,6 @@
     "icon": "https://external-content.duckduckgo.com/ip3/.ico"
   },
   {
-    "id": "Code",
-    "sub_id": "UNL - CS 2",
-    "title": "book",
-    "url": "Code",
-    "icon": "https://external-content.duckduckgo.com/ip3/.ico"
-  },
-  {
     "id": "book",
     "sub_id": "Code",
     "title": "UNL - CS 2",
@@ -770,7 +763,7 @@
     "icon": "https://external-content.duckduckgo.com/ip3/toolfinder.co.ico"
   },
   {
-    "id": "privacy",
+    "id": "cybersec",
     "sub_id": "Guides",
     "title": "PrivacyGuide",
     "url": "https://www.privacyguides.org/en/basics/why-privacy-matters/",
