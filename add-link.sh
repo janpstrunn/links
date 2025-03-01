@@ -74,7 +74,8 @@ while true; do
     if [ -n "$newid" ]; then
       echo "You have added a new ID!"
       echo "You must manually add a new button in the index.html!"
-  else
-    echo "Failed to add link!"
+    else
+      echo "Failed to add link!"
+    fi
   fi
 done
