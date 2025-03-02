@@ -1,9 +1,51 @@
 [
   {
     "id": "py",
-    "sub_id": "Guides",
-    "title": "Arch Wiki",
-    "url": "https://wiki.archlinux.org/title/Main_page",
-    "icon": "https://external-content.duckduckgo.com/ip3/wiki.archlinux.org.ico"
+    "sub_id": "Basics",
+    "title": "Learn Python",
+    "url": "https://www.learnpython.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Basics",
+    "title": "Python Docs",
+    "url": "https://docs.python.org/3/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Basics",
+    "title": "Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Basics",
+    "title": "Standard Libraries",
+    "url": "https://docs.python.org/3/library/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Basics",
+    "title": "Language Reference",
+    "url": "https://docs.python.org/3/reference/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Basics",
+    "title": "Python Search",
+    "url": "https://www.python.org/search/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.python.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Exercises",
+    "title": "Genepy",
+    "url": "https://genepy.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/genepy.org.ico"
   }
 ]
