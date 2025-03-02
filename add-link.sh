@@ -26,7 +26,7 @@ while true; do
     read -r idcreate
     if [ "$idcreate" == "y" ]; then
       echo "Enter new SUB-ID (Category):"
-      read -r id
+      read -r sub_id
     else
       echo "Exiting..."
       break
@@ -64,8 +64,9 @@ while true; do
       '[{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' >data/$id.json
   fi
 
-  if [ $? -eq 0 ]; then
+  if [ "$newid" != "true" ]; then
     echo "Link added successfully to $id.json!"
+  else
     if [ -n "$newid" ]; then
       echo "You have added a new ID!"
       echo "You must manually add a new button in the index.html!"
