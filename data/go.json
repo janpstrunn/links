@@ -54,5 +54,12 @@
     "title": "Standard Libraries",
     "url": "https://pkg.go.dev/std",
     "icon": "https://external-content.duckduckgo.com/ip3/pkg.go.dev.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Guides",
+    "title": "QuickRef",
+    "url": "https://quickref.me/go",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
   }
 ]

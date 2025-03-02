@@ -40,5 +40,12 @@
     "title": "Learn Neovim",
     "url": "https://ofirgall.github.io/learn-nvim/chapters/00-why-should-i-learn.html",
     "icon": "https://external-content.duckduckgo.com/ip3/ofirgall.github.io.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "Online Programming Books",
+    "url": "https://www.onlineprogrammingbooks.com/categories/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
   }
 ]
