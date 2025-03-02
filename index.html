@@ -135,8 +135,6 @@
       };
 
       // Function to load JSON and update content
-
-      // Function to load JSON and update content
       function switchSection(section) {
         // Dynamically map the section to its corresponding JSON file
         const jsonFile = jsonMappings[section];
@@ -276,6 +274,7 @@
       window.addEventListener("popstate", loadPage);
 
       loadPage();
+      switchSection("ai");
     </script>
   </body>
 </html>
