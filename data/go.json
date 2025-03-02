@@ -1,9 +1,58 @@
 [
   {
     "id": "go",
-    "sub_id": "Coming Soon",
-    "title": "Coming Soon",
-    "url": "blank",
-    "icon": "https://external-content.duckduckgo.com/ip3/placehold.ico"
+    "sub_id": "Basics",
+    "title": "go.dev",
+    "url": "https://go.dev/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Books",
+    "title": "Go Wiki: Books",
+    "url": "https://go.dev/wiki/Books",
+    "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Guides",
+    "title": "Learn Go",
+    "url": "https://www.learn-golang.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-golang.org.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Guides",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/go/index.php",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/golang",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Books",
+    "title": "Awesome Go Books",
+    "url": "https://github.com/dariubs/GoBooks",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Exercises",
+    "title": "Hand-Crated Go",
+    "url": "https://github.com/inancgumus/learngo",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "go",
+    "sub_id": "Basics",
+    "title": "Standard Libraries",
+    "url": "https://pkg.go.dev/std",
+    "icon": "https://external-content.duckduckgo.com/ip3/pkg.go.dev.ico"
   }
 ]
