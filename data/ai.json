@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "ChatGPT",
+    "url": "http://chat.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/chat.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Mistral",
+    "url": "https://chat.mistral.ai/chat",
+    "icon": "https://external-content.duckduckgo.com/ip3/chat.mistral.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Duck AI",
+    "url": "https://duckduckgo.com/?q=DuckDuckGo%20AI%20Chat&ia=chat&duckai=1",
+    "icon": "https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Leonardo AI",
+    "url": "https://app.leonardo.ai",
+    "icon": "https://external-content.duckduckgo.com/ip3/app.leonardo.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Loras.dev",
+    "url": "https://www.loras.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.loras.dev.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "TTS",
+    "title": "Eleven Labs",
+    "url": "https://elevenlabs.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/elevenlabs.io.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "TTS",
+    "title": "PI AI",
+    "url": "https://pi.ai/talk",
+    "icon": "https://external-content.duckduckgo.com/ip3/pi.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Research",
+    "title": "Consensus",
+    "url": "https://consensus.app/",
+    "icon": "https://external-content.duckduckgo.com/ip3/consensus.app.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Research",
+    "title": "SciSpace",
+    "url": "https://typeset.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/typeset.io.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Libraries",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "icon": "https://external-content.duckduckgo.com/ip3/huggingface.co.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Gemini",
+    "url": "https://gemini.google.com",
+    "icon": "https://external-content.duckduckgo.com/ip3/gemini.google.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Stable Diffusion",
+    "url": "https://stabledifffusion.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/stabledifffusion.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Claude",
+    "url": "https://claude.ai",
+    "icon": "https://external-content.duckduckgo.com/ip3/claude.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Self Hosted",
+    "title": "GPT4ALL",
+    "url": "https://www.nomic.ai/gpt4all",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.nomic.ai.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Self Hosted",
+    "title": "Llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Self Hosted",
+    "title": "DocsGPT",
+    "url": "https://github.com/arc53/docsgpt",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Libraries",
+    "title": "PyTorch",
+    "url": "https://pytorch.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/pytorch.org.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Images",
+    "title": "Midjourney",
+    "url": "https://www.midjourney.com/home",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.midjourney.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Chatbots",
+    "title": "Leo",
+    "url": "https://brave.com/leo/",
+    "icon": "https://external-content.duckduckgo.com/ip3/brave.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Libraries",
+    "title": "Vosk",
+    "url": "https://alphacephei.com/vosk/",
+    "icon": "https://external-content.duckduckgo.com/ip3/alphacephei.com.ico"
+  }
+]

@@ -33,33 +33,18 @@
     </div>
 
     <!-- Buttons -->
-    <div class="section-selector">
-      <button class="ai" onclick="switchSection('ai')">🤖 AI</button>
-      <button class="news" onclick="switchSection('news')">📰 News</button>
-      <button class="vet" onclick="switchSection('vet')">🐶 Veterinary</button>
-      <button class="software" onclick="switchSection('software')">
-        🖥️ Software
-      </button>
-      <button class="code" onclick="switchSection('code')">🛠️ Code</button>
-      <button class="lifestyle" onclick="switchSection('lifestyle')">
-        🍹 Lifestyle
-      </button>
-      <button class="databases" onclick="switchSection('db')">
-        🗃️ Databases
-      </button>
-      <button class="cybersec" onclick="switchSection('cybersec')">
-        🔐 Cybersec
-      </button>
-      <button class="book" onclick="switchSection('book')">📚 Books</button>
-      <button class="yt" onclick="switchSection('yt')">▶ Youtube</button>
-    </div>
+    <main id="dynamic-content"></main>
 
     <!-- Columns -->
     <div id="content-container"></div>
 
     <!-- Sidebar Content (Hidden by Default) -->
     <div id="mainpage-content" class="sidebar-content">
-      <h3>Coming Soon...</h3>
+      <h4>Sections</h4>
+      <button onclick="changePage('home')">Main Page</button>
+      <a href="https://github.io/janpstrunn/links">Source Code</a>
+      <h4>Programming Related</h4>
+      <button onclick="changePage('code')">Programming Languages</button>
     </div>
 
     <div class="footer">
@@ -118,119 +103,129 @@
       <span style="padding-right: 15px">
         <a href="https://github.io/janpstrunn/links">Source Code</a>
       </span>
+      <span style="padding-right: 15px">
+        <p>© 2025 Janpstrunn</p>
+      </span>
     </div>
 
     <script>
-      // Fetch local data/links.json
-      fetch("data/links.json")
-        .then((response) => response.json())
-        .then((links) => {
-          let container = document.getElementById("content-container");
-          let groupedLinks = {};
+      // Mapping sections to JSON file paths
+      const jsonMappings = {
+        ai: "data/ai.json",
+        news: "data/news.json",
+        vet: "data/vet.json",
+        software: "data/software.json",
+        code: "data/code.json",
+        lifestyle: "data/lifestyle.json",
+        db: "data/db.json",
+        cybersec: "data/cybersec.json",
+        book: "data/book.json",
+        yt: "data/yt.json",
+        general: "data/general.json",
+        py: "data/py.json",
+        rust: "data/rust.json",
+        go: "data/go.json",
+        bash: "data/bash.json",
+        js: "data/js.json",
+        html: "data/html.json",
+        css: "data/css.json",
+        ts: "data/ts.json",
+        sql: "data/sql.json",
+        java: "data/java.json",
+      };
 
-          links.forEach((link) => {
-            if (!groupedLinks[link.id]) groupedLinks[link.id] = {};
-            if (!groupedLinks[link.id][link.sub_id])
-              groupedLinks[link.id][link.sub_id] = [];
-            groupedLinks[link.id][link.sub_id].push(link);
-          });
+      // Function to load JSON and update content
 
-          // Construct the columns
-          Object.keys(groupedLinks).forEach((id) => {
-            let sectionDiv = document.createElement("div");
-            sectionDiv.className = "section hidden";
-            sectionDiv.id = id;
+      // Function to load JSON and update content
+      function switchSection(section) {
+        // Dynamically map the section to its corresponding JSON file
+        const jsonFile = jsonMappings[section];
 
-            let sectionTitle = document.createElement("h2");
-            sectionTitle.textContent = `${id.toUpperCase()}`;
-            sectionTitle.className = `${id}`;
-            sectionDiv.appendChild(sectionTitle);
+        if (!jsonFile) {
+          console.error("No JSON file mapped for section:", section);
+          return;
+        }
 
-            let columnsContainer = document.createElement("div");
-            columnsContainer.className = "columns-container"; // Wraps all columns
+        // Clear the content container before starting to load new data
+        let container = document.getElementById("content-container");
+        container.innerHTML = ""; // Clear previous content immediately
 
-            Object.keys(groupedLinks[id]).forEach((sub_id) => {
-              let columnDiv = document.createElement("div");
-              columnDiv.className = "column";
+        // Fetch the new JSON file and process it
+        fetch(jsonFile)
+          .then((response) => response.json())
+          .then((links) => {
+            let groupedLinks = {};
 
-              let subIdTitle = document.createElement("h3");
-              subIdTitle.className = `sub_id_title ${id}`;
-              subIdTitle.textContent = `${sub_id}`;
-              columnDiv.appendChild(subIdTitle);
-
-              groupedLinks[id][sub_id].forEach((link) => {
-                let a = document.createElement("a");
-                a.href = link.url;
-                a.className = "card";
-                a.innerHTML = `<img src="${link.icon}" width="32"><p>${link.title}</p>`;
-                columnDiv.appendChild(a);
-              });
-
-              columnsContainer.appendChild(columnDiv);
+            // Group the links by id and sub_id
+            links.forEach((link) => {
+              if (!groupedLinks[link.id]) groupedLinks[link.id] = {};
+              if (!groupedLinks[link.id][link.sub_id])
+                groupedLinks[link.id][link.sub_id] = [];
+              groupedLinks[link.id][link.sub_id].push(link);
             });
 
-            sectionDiv.appendChild(columnsContainer);
-            container.appendChild(sectionDiv);
-          });
+            // Construct the columns for the new section
+            Object.keys(groupedLinks).forEach((id) => {
+              let sectionDiv = document.createElement("div");
+              sectionDiv.className = "section hidden";
+              sectionDiv.id = id;
 
-          const allSections = document.querySelectorAll(".section");
+              let sectionTitle = document.createElement("h2");
+              sectionTitle.textContent = `${id.toUpperCase()}`;
+              sectionTitle.className = `${id}`;
+              sectionDiv.appendChild(sectionTitle);
 
-          // Section Switching and Hashing
+              let columnsContainer = document.createElement("div");
+              columnsContainer.className = "columns-container"; // Wraps all columns
 
-          window.switchSection = function (sectionId) {
-            const targetSection = document.getElementById(sectionId);
+              Object.keys(groupedLinks[id]).forEach((sub_id) => {
+                let columnDiv = document.createElement("div");
+                columnDiv.className = "column";
 
-            // Hide all sections
+                let subIdTitle = document.createElement("h3");
+                subIdTitle.className = `sub_id_title ${id}`;
+                subIdTitle.textContent = `${sub_id}`;
+                columnDiv.appendChild(subIdTitle);
+
+                groupedLinks[id][sub_id].forEach((link) => {
+                  let a = document.createElement("a");
+                  a.href = link.url;
+                  a.className = "card";
+                  a.innerHTML = `<img src="${link.icon}" width="32"><p>${link.title}</p>`;
+                  columnDiv.appendChild(a);
+                });
+
+                columnsContainer.appendChild(columnDiv);
+              });
+
+              sectionDiv.appendChild(columnsContainer);
+              container.appendChild(sectionDiv);
+            });
+
+            // Hide all sections before showing the active one
+            const allSections = document.querySelectorAll(".section");
             allSections.forEach((section) => section.classList.add("hidden"));
 
+            // Show the new section
+            const targetSection = document.getElementById(section);
             if (targetSection) {
               targetSection.classList.remove("hidden");
             }
 
-            // Remove "active" class from all buttons
-            document
-              .querySelectorAll(".section-selector button")
-              .forEach((button) => button.classList.remove("active"));
-
             // Add "active" class to the clicked button
             document
-              .querySelector(`button[onclick="switchSection('${sectionId}')"]`)
-              .classList.add("active");
-          };
-
-          // Switch to the first section at start
-
-          if (Object.keys(groupedLinks).length > 0) {
-            const firstSection = Object.keys(groupedLinks)[0];
-            switchSection(firstSection);
-          }
-
-          // Toggle Sidebar
-
-          function toggleSidebar() {
-            const sidebar = document.getElementById("sidebar");
-            const sidebarContent = document.getElementById("sidebar-content");
-            const contentSource = document.getElementById("mainpage-content");
-
-            if (sidebar.classList.contains("active")) {
-              sidebar.classList.remove("active"); // Close sidebar
-            } else {
-              sidebarContent.innerHTML = contentSource.innerHTML; // Load content
-              sidebar.classList.add("active"); // Open sidebar
-
-              // Close sidebar when clicking outside
-              document.addEventListener("click", function closeSidebar(event) {
-                if (
-                  !sidebar.contains(event.target) &&
-                  event.target.className !== "emoji-button"
-                ) {
-                  sidebar.classList.remove("active");
-                  document.removeEventListener("click", closeSidebar);
-                }
+              .querySelectorAll(".section-selector button")
+              .forEach((button) => {
+                button.classList.remove("active");
               });
-            }
-          }
-        });
+            document
+              .querySelector(`button[onclick="switchSection('${section}')"]`)
+              .classList.add("active");
+          })
+          .catch((error) => {
+            console.error("Error loading JSON file:", error);
+          });
+      }
 
       function toggleSidebar() {
         const sidebar = document.getElementById("sidebar");
@@ -238,12 +233,11 @@
         const contentSource = document.getElementById("mainpage-content");
 
         if (sidebar.classList.contains("actived")) {
-          sidebar.classList.remove("actived"); // Close sidebar
+          sidebar.classList.remove("actived");
         } else {
-          sidebarContent.innerHTML = contentSource.innerHTML; // Load content
-          sidebar.classList.add("actived"); // Open sidebar
+          sidebarContent.innerHTML = contentSource.innerHTML;
+          sidebar.classList.add("actived");
 
-          // Close sidebar when clicking outside
           document.addEventListener("click", function closeSidebar(event) {
             if (
               !sidebar.contains(event.target) &&
@@ -255,6 +249,33 @@
           });
         }
       }
+
+      function loadPage() {
+        const params = new URLSearchParams(window.location.search);
+        const page = params.get("page") || "home";
+
+        fetch(`pages/${page}.html`)
+          .then((response) => {
+            if (!response.ok) throw new Error("Page not found");
+            return response.text();
+          })
+          .then((html) => {
+            document.getElementById("dynamic-content").innerHTML = html;
+          })
+          .catch(() => {
+            document.getElementById("dynamic-content").innerHTML =
+              "<p>Page not found.</p>";
+          });
+      }
+
+      function changePage(page) {
+        history.pushState(null, "", `?page=${page}`);
+        loadPage();
+      }
+
+      window.addEventListener("popstate", loadPage);
+
+      loadPage();
     </script>
   </body>
 </html>

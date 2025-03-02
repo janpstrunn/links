@@ -67,6 +67,34 @@ body {
   display: flex;
 }
 
+.sidebar button {
+  background-color: transparent;
+  border: 0px solid #7c5cff;
+  border-radius: 0px;
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 0px;
+  max-width: 100%;
+  min-width: max-content;
+  margin: 10px;
+  overflow-x: hidden;
+  padding: 0px 0;
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  text-align: left;
+  transition-duration: 0s;
+  white-space: nowrap;
+  width: auto;
+  z-index: 1000;
+}
+
+.sidebar button:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
 main {
   position: fixed;
   right: 100%;

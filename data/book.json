@@ -1,0 +1,65 @@
+[
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "ATBS",
+    "url": "https://automatetheboringstuff.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Vet",
+    "title": "Immunology - NCBI",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK7795/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "Free Programming Books",
+    "url": "https://github.com/EbookFoundation/free-programming-books#readme",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "Gray Hat Hacking",
+    "url": "https://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf",
+    "icon": "https://external-content.duckduckgo.com/ip3/pages.cs.wisc.edu.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "Rust by Google",
+    "url": "https://google.github.io/comprehensive-rust/welcome-day-1.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/google.github.io.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "DCIC",
+    "url": "https://dcic-world.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/dcic-world.org.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "UNL - CS 1",
+    "url": "book",
+    "icon": "https://external-content.duckduckgo.com/ip3/.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "UNL - CS 2",
+    "url": "https://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf",
+    "icon": "https://external-content.duckduckgo.com/ip3/cse.unl.edu.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Code",
+    "title": "Learn Neovim",
+    "url": "https://ofirgall.github.io/learn-nvim/chapters/00-why-should-i-learn.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/ofirgall.github.io.ico"
+  }
+]
