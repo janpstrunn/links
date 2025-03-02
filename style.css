@@ -1,6 +1,6 @@
 html {
   background-attachment: fixed;
-  background-image: url("https://giffiles.alphacoders.com/215/215595.gif");
+  background-image: url("https://i.pinimg.com/originals/44/58/d9/4458d949654591422a4f8f47fa15c39e.gif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -96,7 +96,7 @@ body {
   overflow-x: scroll;
   padding: 0 10px;
   position: fixed;
-  top: calc(40px + 5vh);
+  top: calc(35px + 5vh);
   width: 100%;
   z-index: 1000;
 }
@@ -119,15 +119,15 @@ button {
   color: white;
   font-size: 16px;
   margin-bottom: 10px;
-  width: auto;
   max-width: 100%;
-  min-width: 70px;
+  min-width: max-content;
   overflow-x: hidden;
   padding: 10px 20px;
   position: relative;
   text-align: center;
   transition-duration: 0.4s;
   white-space: nowrap;
+  width: auto;
   z-index: 1000;
 }
 
