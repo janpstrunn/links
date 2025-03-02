@@ -13,6 +13,13 @@
   </head>
 
   <body>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <div id="sidebar-content"></div>
+    </div>
+
+    <!-- Button to Toggle Sidebar -->
+
     <div class="header">
       <!-- My Logo -->
       <span>
@@ -26,9 +33,7 @@
         <h1 class="homepage-title">Links</h1>
       </span>
       <span>
-        <a href="https://github.com/janpstrunn/links" class="emoji-link">
-          <button class="emoji-button">🏠</button>
-        </a>
+        <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
       </span>
     </div>
 
@@ -56,6 +61,11 @@
 
     <!-- Columns -->
     <div id="content-container"></div>
+
+    <!-- Sidebar Content (Hidden by Default) -->
+    <div id="mainpage-content" class="sidebar-content">
+      <h3>Coming Soon...</h3>
+    </div>
 
     <div class="footer">
       <p>
@@ -150,7 +160,57 @@
             const firstSection = Object.keys(groupedLinks)[0];
             switchSection(firstSection);
           }
+
+          // Toggle Sidebar
+
+          function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            const sidebarContent = document.getElementById("sidebar-content");
+            const contentSource = document.getElementById("mainpage-content");
+
+            if (sidebar.classList.contains("active")) {
+              sidebar.classList.remove("active"); // Close sidebar
+            } else {
+              sidebarContent.innerHTML = contentSource.innerHTML; // Load content
+              sidebar.classList.add("active"); // Open sidebar
+
+              // Close sidebar when clicking outside
+              document.addEventListener("click", function closeSidebar(event) {
+                if (
+                  !sidebar.contains(event.target) &&
+                  event.target.className !== "emoji-button"
+                ) {
+                  sidebar.classList.remove("active");
+                  document.removeEventListener("click", closeSidebar);
+                }
+              });
+            }
+          }
         });
+
+      function toggleSidebar() {
+        const sidebar = document.getElementById("sidebar");
+        const sidebarContent = document.getElementById("sidebar-content");
+        const contentSource = document.getElementById("mainpage-content");
+
+        if (sidebar.classList.contains("actived")) {
+          sidebar.classList.remove("actived"); // Close sidebar
+        } else {
+          sidebarContent.innerHTML = contentSource.innerHTML; // Load content
+          sidebar.classList.add("actived"); // Open sidebar
+
+          // Close sidebar when clicking outside
+          document.addEventListener("click", function closeSidebar(event) {
+            if (
+              !sidebar.contains(event.target) &&
+              event.target.className !== "toggle-btn"
+            ) {
+              sidebar.classList.remove("actived");
+              document.removeEventListener("click", closeSidebar);
+            }
+          });
+        }
+      }
     </script>
   </body>
 </html>
