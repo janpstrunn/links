@@ -96,5 +96,33 @@
     "title": "QuickRef: PostgreSQL",
     "url": "https://quickref.me/postgres",
     "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "Learn SQL",
+    "url": "https://www.learnsqlonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnsqlonline.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "MySQLBook",
+    "url": "https://books.goalkicker.com/MySQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "PostgreSQLBook",
+    "url": "https://books.goalkicker.com/PostgreSQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "SQLBook",
+    "url": "https://books.goalkicker.com/SQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
   }
 ]

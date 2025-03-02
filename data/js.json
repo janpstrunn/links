@@ -68,5 +68,19 @@
     "title": "web.dev",
     "url": "https://web.dev/learn/javascript",
     "icon": "https://external-content.duckduckgo.com/ip3/web.dev.ico"
+  },
+  {
+    "id": "js",
+    "sub_id": "Guides",
+    "title": "Learn JS",
+    "url": "https://www.learn-js.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-js.org.ico"
+  },
+  {
+    "id": "js",
+    "sub_id": "Books",
+    "title": "JSBook",
+    "url": "https://books.goalkicker.com/JavaScriptBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
   }
 ]

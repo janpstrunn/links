@@ -117,5 +117,19 @@
     "title": "SVG Repo",
     "url": "https://www.svgrepo.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.svgrepo.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Online Programming Books",
+    "url": "https://www.onlineprogrammingbooks.com/categories/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Flavio Copes: Programming",
+    "url": "https://flaviocopes.com/access/",
+    "icon": "https://external-content.duckduckgo.com/ip3/flaviocopes.com.ico"
   }
 ]

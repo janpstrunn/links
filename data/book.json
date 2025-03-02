@@ -1,7 +1,7 @@
 [
   {
     "id": "book",
-    "sub_id": "Code",
+    "sub_id": "Tech",
     "title": "Free Programming Books",
     "url": "https://github.com/EbookFoundation/free-programming-books#readme",
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
@@ -15,37 +15,30 @@
   },
   {
     "id": "book",
-    "sub_id": "Code",
+    "sub_id": "Computer Science",
     "title": "DCIC",
     "url": "https://dcic-world.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/dcic-world.org.ico"
   },
   {
     "id": "book",
-    "sub_id": "Code",
-    "title": "UNL - CS 1",
-    "url": "book",
-    "icon": "https://external-content.duckduckgo.com/ip3/.ico"
+    "sub_id": "Computer Science",
+    "title": "UNL - Computer Science I",
+    "url": "https://cse.unl.edu/~cbourke/ComputerScienceOne.pdf",
+    "icon": "https://external-content.duckduckgo.com/ip3/cse.unl.edu.ico"
   },
   {
     "id": "book",
-    "sub_id": "Code",
-    "title": "UNL - CS 2",
+    "sub_id": "Computer Science",
+    "title": "UNL - Computer Scince II",
     "url": "https://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf",
     "icon": "https://external-content.duckduckgo.com/ip3/cse.unl.edu.ico"
   },
   {
     "id": "book",
-    "sub_id": "Code",
+    "sub_id": "Tech",
     "title": "Learn Neovim",
     "url": "https://ofirgall.github.io/learn-nvim/chapters/00-why-should-i-learn.html",
     "icon": "https://external-content.duckduckgo.com/ip3/ofirgall.github.io.ico"
-  },
-  {
-    "id": "book",
-    "sub_id": "Code",
-    "title": "Online Programming Books",
-    "url": "https://www.onlineprogrammingbooks.com/categories/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
   }
 ]
