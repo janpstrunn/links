@@ -34,6 +34,7 @@ body {
   padding: 20px;
   position: fixed;
   right: 0;
+  overflow-x: scroll;
   text-align: center;
   top: calc(40px + 5vh);
   transform: translateX(100%);
@@ -46,14 +47,29 @@ body {
   transform: translateX(0);
 }
 
-.sidebar h3 {
+.sidebar h4 {
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
+  color: rgba(177, 177, 177, 1);
+  box-sizing: border-box;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px;
 }
 
 .sidebar a {
-  margin-left: 10px;
-  text-align: center;
+  margin: 10px;
+  text-align: left;
+  font-size: 0.8em;
+  display: flex;
+}
+
+main {
+  position: fixed;
+  right: 100%;
 }
 
 .toggle-btn {
@@ -395,12 +411,60 @@ p {
   color: #fc5f62;
 }
 
-.yt {
-  color: #fc2020;
-}
-
 .software {
   color: #20dbfc;
+}
+
+.general {
+  color: #8720fc;
+}
+
+.go {
+  color: #67d6e4;
+}
+
+.js {
+  color: #fdd83f;
+}
+
+.bash {
+  color: #2ada2b;
+}
+
+.code {
+  color: #8720fc;
+}
+
+.rust {
+  color: #fcae5f;
+}
+
+.html {
+  color: #f84923;
+}
+
+.css {
+  color: #214cdc;
+}
+
+.yt {
+  color: #f60000;
+}
+
+.py {
+  color: #244c6e;
+}
+
+.ts {
+  color: #0176c6;
+}
+
+.sql {
+  color: #0077d2;
+}
+
+.java {
+  color: #e02319;
 }
 
 .book {
