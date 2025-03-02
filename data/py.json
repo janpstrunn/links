@@ -68,5 +68,19 @@
     "title": "QuickRef",
     "url": "https://quickref.me/python",
     "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Guides",
+    "title": "Learn Python",
+    "url": "https://www.learnpython.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Books",
+    "title": "Think Python",
+    "url": "https://allendowney.github.io/ThinkPython/",
+    "icon": "https://external-content.duckduckgo.com/ip3/allendowney.github.io.ico"
   }
 ]

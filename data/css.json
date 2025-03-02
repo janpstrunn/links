@@ -5,5 +5,47 @@
     "title": "Coming Soon",
     "url": "blank",
     "icon": "https://external-content.duckduckgo.com/ip3/placehold.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Basics",
+    "title": "Mozilla Web Dev",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS",
+    "icon": "https://external-content.duckduckgo.com/ip3/developer.mozilla.org.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Books",
+    "title": "CSSBook",
+    "url": "https://www.goalkicker.com/CSSBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.goalkicker.com.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Guides",
+    "title": "web.dev",
+    "url": "https://web.dev/learn/css",
+    "icon": "https://external-content.duckduckgo.com/ip3/web.dev.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Guides",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/css/default.asp",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Guides",
+    "title": "QuickRef",
+    "url": "https://quickref.me/css3",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "css",
+    "sub_id": "Guides",
+    "title": "Learn CSS",
+    "url": "https://www.learn-html.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-html.org.ico"
   }
 ]
