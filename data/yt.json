@@ -61,5 +61,12 @@
     "title": "Ali Abdaal",
     "url": "https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg",
     "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "ThePrimeTime",
+    "url": "https://www.youtube.com/channel/UCUyeluBRhGPCW4rPe_UvBZQ",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
   }
 ]

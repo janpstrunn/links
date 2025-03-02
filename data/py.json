@@ -82,5 +82,12 @@
     "title": "Think Python",
     "url": "https://allendowney.github.io/ThinkPython/",
     "icon": "https://external-content.duckduckgo.com/ip3/allendowney.github.io.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Books",
+    "title": "PythonBook",
+    "url": "https://books.goalkicker.com/PythonBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
   }
 ]
