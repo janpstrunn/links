@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while true; do
-  id=$(ls ./data/ | awk -F '.' '{print $1}' | fzf --prompt "Enter the ID for the Link: ")
+  id=$(ls ../data/ | awk -F '.' '{print $1}' | fzf --prompt "Enter the ID for the Link: ")
   if [[ -z "$id" ]]; then
     echo "Create a new ID? (y/n)"
     read -r idcreate
@@ -15,8 +15,8 @@ while true; do
     fi
   fi
 
-  if [ -n "$id" ]; then
-    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ./data/$id.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
+  if [ -n "$id" ] || [ -f "./data/$id.json" ]; then
+    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ../data/$id.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
   else
     echo "Enter the ID for the link:"
     read -r sub_id
@@ -56,12 +56,12 @@ while true; do
   url_escaped=$(echo "$url" | sed 's/"/\\"/g')
   icon_url_escaped=$(echo "$icon_url" | sed 's/"/\\"/g')
 
-  if [ -s data/$id.json ]; then
+  if [ -s ../data/$id.json ]; then
     jq --arg id "$id_escaped" --arg sub_id "$sub_id_escaped" --arg title "$title_escaped" --arg url "$url_escaped" --arg icon "$icon_url_escaped" \
-      '. += [{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' data/$id.json >temp.json && mv temp.json data/$id.json
+      '. += [{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' ../data/$id.json >temp.json && mv temp.json ../data/$id.json
   else
     jq -n --arg id "$id_escaped" --arg sub_id "$sub_id_escaped" --arg title "$title_escaped" --arg url "$url_escaped" --arg icon "$icon_url_escaped" \
-      '[{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' >data/$id.json
+      '[{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' >../data/$id.json
   fi
 
   if [ "$newid" != "true" ]; then
