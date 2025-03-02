@@ -8,17 +8,10 @@
   },
   {
     "id": "book",
-    "sub_id": "Code",
+    "sub_id": "Cybersecurity",
     "title": "Gray Hat Hacking",
     "url": "https://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf",
     "icon": "https://external-content.duckduckgo.com/ip3/pages.cs.wisc.edu.ico"
-  },
-  {
-    "id": "book",
-    "sub_id": "Code",
-    "title": "Rust by Google",
-    "url": "https://google.github.io/comprehensive-rust/welcome-day-1.html",
-    "icon": "https://external-content.duckduckgo.com/ip3/google.github.io.ico"
   },
   {
     "id": "book",

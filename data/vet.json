@@ -250,5 +250,26 @@
     "title": "VetGirl",
     "url": "https://vetgirlontherun.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/vetgirlontherun.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Youtube",
+    "title": "Alila Medical Media",
+    "url": "https://www.youtube.com/channel/UCiTGKA9W0G0TL8Hm7Uf_u9A",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Youtube",
+    "title": "Andrew Huberman",
+    "url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Youtube",
+    "title": "Ninja Nerd",
+    "url": "https://www.youtube.com/channel/UC6QYFutt9cluQ3uSM963_KQ",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
   }
 ]

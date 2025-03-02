@@ -43,6 +43,20 @@
   },
   {
     "id": "py",
+    "sub_id": "Books",
+    "title": "ATBS",
+    "url": "https://automatetheboringstuff.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/python",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "py",
     "sub_id": "Exercises",
     "title": "Genepy",
     "url": "https://genepy.org/",
@@ -50,9 +64,9 @@
   },
   {
     "id": "py",
-    "sub_id": "Books",
-    "title": "ATBS",
-    "url": "https://automatetheboringstuff.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
+    "sub_id": "Guides",
+    "title": "QuickRef",
+    "url": "https://quickref.me/python",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
   }
 ]
