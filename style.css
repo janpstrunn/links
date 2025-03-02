@@ -499,6 +499,18 @@ p {
   color: #a6e3a1;
 }
 
+.cpp {
+  color: #659bd3;
+}
+
+.rb {
+  color: #8b0500;
+}
+
+.lua {
+  color: #fff;
+}
+
 @media screen and (max-width: 480px) {
   .section-selector {
     box-sizing: border-box;
