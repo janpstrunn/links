@@ -61,8 +61,10 @@ body {
   border: none;
   color: white;
   cursor: pointer;
+  display: flex;
   font-size: 26px;
   height: 35px;
+  justify-content: center;
   margin-bottom: 0px;
   margin-top: 0px;
   max-width: 100%;
@@ -73,8 +75,6 @@ body {
   right: 15px;
   top: 10px;
   transition-duration: 0.5s;
-  display: flex;
-  justify-content: center;
   z-index: 9999;
 }
 
@@ -92,8 +92,8 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
-  overflow-x: scroll;
   justify-content: flex-start;
+  overflow-x: scroll;
   padding: 0 10px;
   position: fixed;
   top: calc(40px + 5vh);
@@ -119,20 +119,20 @@ button {
   color: white;
   font-size: 16px;
   margin-bottom: 10px;
+  width: auto;
   max-width: 100%;
-  min-width: 140px;
+  min-width: 70px;
   overflow-x: hidden;
   padding: 10px 20px;
   position: relative;
   text-align: center;
-  text-shadow: 0 0 5px white;
   transition-duration: 0.4s;
   white-space: nowrap;
   z-index: 1000;
 }
 
 button:hover {
-  background-color: #f067fc;
+  background-color: #7c5cff;
   color: white;
   cursor: pointer;
 }
@@ -143,7 +143,6 @@ button:hover {
 
 .active {
   background-color: rgba(74, 11, 79, 0.5);
-  text-shadow: 0 0 20px #f067fc;
 }
 
 .header {
@@ -172,26 +171,23 @@ button:hover {
 
 .icon {
   border-radius: 20px;
-  height: 40px;
+  height: 30px;
 }
 
 h1.homepage-title {
   align-items: center;
   background-color: rgba(19, 14, 28, 0.9);
-  border: 2px solid #7c5cff;
+  border: 0px solid #7c5cff;
   border-radius: 10px;
   color: white;
   flex-grow: 1;
-  font-size: auto;
+  font-size: 28px;
   font-weight: bold;
   height: 80%;
-  left: 35%;
-  right: 35%;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 8px;
   position: absolute;
   text-align: center;
-  text-shadow: 0 0 20px white;
   width: 30%;
 }
 
@@ -200,8 +196,8 @@ h1.homepage-title {
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 32px;
-  text-shadow: 0 0 20px white;
+  font-size: 28px;
+  margin: 10px;
   z-index: 2000;
 }
 
@@ -225,7 +221,7 @@ h2 {
   border-radius: 10px;
   box-sizing: border-box;
   display: none;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   justify-content: center;
   margin: 0;
@@ -274,7 +270,7 @@ h3 {
   height: calc(80% - 35px);
   overflow-x: hidden;
   overflow-y: auto;
-  padding: 20px 0;
+  padding: 0px 0;
   position: fixed;
   top: calc(95px + 5vh);
   width: 100%;
@@ -304,7 +300,6 @@ h3 {
   border-radius: 10px;
   cursor: pointer;
   display: flex;
-  display: flex;
   flex: 1;
   flex-direction: row;
   justify-content: center;
@@ -318,7 +313,7 @@ h3 {
 .card img {
   margin-right: 15px;
   vertical-align: middle;
-  width: 30px;
+  width: 25px;
 }
 
 .card:hover {
@@ -343,7 +338,7 @@ p {
   bottom: 0;
   color: white;
   display: flex;
-  font-size: 14px;
+  height: 16px;
   justify-content: space-between;
   left: 0;
   padding: 10px;
@@ -374,52 +369,42 @@ p {
 /* Header Theming */
 .ai {
   color: #46d9ff;
-  text-shadow: 0 0 5px #46d9ff;
 }
 
 .news {
   color: #f4f113;
-  text-shadow: 0 0 5px #f4f113;
 }
 
 .vet {
   color: #02f789;
-  text-shadow: 0 0 5px #02f789;
 }
 
 .code {
   color: #8720fc;
-  text-shadow: 0 0 5px #8720fc;
 }
 
 .lifestyle {
   color: #f067fc;
-  text-shadow: 0 0 5px #f067fc;
 }
 
 .db {
   color: #fcae5f;
-  text-shadow: 0 0 5px #fcae5f;
 }
 
 .cybersec {
   color: #fc5f62;
-  text-shadow: 0 0 5px #fc5f62;
 }
 
 .yt {
   color: #fc2020;
-  text-shadow: 0 0 5px #fc2020;
 }
 
 .software {
   color: #20dbfc;
-  text-shadow: 0 0 5px #20dbfc;
 }
 
 .book {
   color: #a6e3a1;
-  text-shadow: 0 0 5px #a6e3a1;
 }
 
 @media screen and (max-width: 480px) {
@@ -429,12 +414,12 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 10px;
-    overflow-x: scroll;
     justify-content: flex-start;
+    overflow-x: scroll;
     padding: 0 10px;
-    width: 80%;
     position: fixed;
-    top: calc(60px + 5vh);
+    top: calc(50px + 5vh);
+    width: 80%;
     z-index: 3000;
   }
   .footer {
@@ -442,5 +427,8 @@ p {
   }
   .footer span {
     font-size: 10px;
+  }
+  .sidebar {
+    width: 100%;
   }
 }
