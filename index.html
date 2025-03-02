@@ -43,10 +43,12 @@
       <h4>Sections</h4>
       <button onclick="changePage('home'); toggleSidebar();">Main Page</button>
       <a href="https://github.io/janpstrunn/links">Source Code</a>
-      <h4>Programming Related</h4>
+      <h4>Programming</h4>
       <button onclick="changePage('code'); toggleSidebar();">
         Programming Languages
       </button>
+      <h4>Veterinary Medicine</h4>
+      <button onclick="changePage('vet'); toggleSidebar();">Research</button>
     </div>
 
     <div class="footer">
@@ -111,28 +113,30 @@
       // Mapping sections to JSON file paths
       const jsonMappings = {
         ai: "data/ai.json",
-        news: "data/news.json",
-        vet: "data/vet.json",
-        software: "data/software.json",
-        code: "data/code.json",
-        lifestyle: "data/lifestyle.json",
-        db: "data/db.json",
-        cybersec: "data/cybersec.json",
-        book: "data/book.json",
-        yt: "data/yt.json",
-        py: "data/py.json",
-        rs: "data/rs.json",
-        go: "data/go.json",
-        rb: "data/rb.json",
-        lua: "data/lua.json",
-        cpp: "data/cpp.json",
         bash: "data/bash.json",
-        js: "data/js.json",
-        html: "data/html.json",
+        book: "data/book.json",
+        code: "data/code.json",
+        cpp: "data/cpp.json",
         css: "data/css.json",
-        ts: "data/ts.json",
-        sql: "data/sql.json",
+        cybersec: "data/cybersec.json",
+        db: "data/db.json",
+        go: "data/go.json",
+        html: "data/html.json",
         java: "data/java.json",
+        js: "data/js.json",
+        lifestyle: "data/lifestyle.json",
+        lua: "data/lua.json",
+        news: "data/news.json",
+        py: "data/py.json",
+        rb: "data/rb.json",
+        rs: "data/rs.json",
+        software: "data/software.json",
+        sql: "data/sql.json",
+        ts: "data/ts.json",
+        vet_book: "data/vet_book.json",
+        vet: "data/vet.json",
+        vet_yt: "data/vet_yt.json",
+        yt: "data/yt.json",
       };
 
       // Function to load JSON and update content
