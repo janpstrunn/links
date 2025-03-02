@@ -1,6 +1,41 @@
 [
   {
     "id": "software",
+    "sub_id": "Guides",
+    "title": "PrivacyTools",
+    "url": "https://www.privacytools.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.privacytools.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "PrivacyTests",
+    "url": "https://privacytests.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/privacytests.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "BrowserLeaks",
+    "url": "https://browserleaks.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/browserleaks.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "Cover Your Tracks",
+    "url": "https://coveryourtracks.eff.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/coveryourtracks.eff.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Guides",
+    "title": "PrivacyGuide",
+    "url": "https://www.privacyguides.org/en/basics/why-privacy-matters/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.privacyguides.org.ico"
+  },
+  {
+    "id": "software",
     "sub_id": "Notes",
     "title": "Obsidian",
     "url": "https://obsidian.md/",

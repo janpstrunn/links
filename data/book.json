@@ -2,13 +2,6 @@
   {
     "id": "book",
     "sub_id": "Code",
-    "title": "ATBS",
-    "url": "https://automatetheboringstuff.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
-  },
-  {
-    "id": "book",
-    "sub_id": "Code",
     "title": "Free Programming Books",
     "url": "https://github.com/EbookFoundation/free-programming-books#readme",
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"

@@ -15,7 +15,7 @@
   },
   {
     "id": "code",
-    "sub_id": "Languages",
+    "sub_id": "Guides",
     "title": "W3Schools",
     "url": "https://www.w3schools.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
@@ -89,5 +89,54 @@
     "title": "HTB",
     "url": "https://www.hackthebox.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.hackthebox.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Cheat Sheets",
+    "title": "Awesome CheetSheets",
+    "url": "https://lecoupa.github.io/awesome-cheatsheets/",
+    "icon": "https://external-content.duckduckgo.com/ip3/lecoupa.github.io.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn Ruby",
+    "url": "https://www.learnrubyonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnrubyonline.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn SQL",
+    "url": "https://www.sqltutorial.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.sqltutorial.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn JavaScript",
+    "url": "https://www.learn-js.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-js.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn HTML",
+    "url": "https://www.learn-html.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-html.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn Typescript",
+    "url": "https://www.learn-ts.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-ts.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Guides",
+    "title": "Web Dev",
+    "url": "https://web.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/web.dev.ico"
   }
 ]

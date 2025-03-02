@@ -47,5 +47,12 @@
     "title": "Genepy",
     "url": "https://genepy.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/genepy.org.ico"
+  },
+  {
+    "id": "py",
+    "sub_id": "Books",
+    "title": "ATBS",
+    "url": "https://automatetheboringstuff.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/automatetheboringstuff.com.ico"
   }
 ]
