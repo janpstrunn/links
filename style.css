@@ -30,13 +30,15 @@ body {
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
   color: white;
   flex-grow: 1;
-  height: calc(80% - 20px);
+  height: 100%;
+  /* height: calc(80% - 20px); */
+  max-height: calc(80vh - 5px);
+  overflow-x: scroll;
   padding: 20px;
   position: fixed;
   right: 0;
-  overflow-x: scroll;
   text-align: center;
-  top: calc(40px + 5vh);
+  top: calc(30px + 5vh);
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   width: 25%;
@@ -535,9 +537,11 @@ p {
     font-size: 10px;
   }
   .sidebar {
+    border: 0px solid #7c5cff;
+    border-radius: 0px;
+    top: calc(30px + 5vh);
+    transition: transform 0s ease-in-out;
     width: 85%;
-    height: calc(85% - 20px);
-    top: calc(45px + 5vh);
     z-index: 3000;
   }
 }
