@@ -535,9 +535,9 @@ p {
     font-size: 10px;
   }
   .sidebar {
-    width: 90%;
-    height: calc(75% - 20px);
-    top: calc(55px + 5vh);
+    width: 85%;
+    height: calc(85% - 20px);
+    top: calc(45px + 5vh);
     z-index: 3000;
   }
 }
