@@ -475,6 +475,7 @@ p {
   color: #214cdc;
 }
 
+.vet_yt,
 .yt {
   color: #f60000;
 }
@@ -495,6 +496,7 @@ p {
   color: #e02319;
 }
 
+.vet_book,
 .book {
   color: #a6e3a1;
 }
@@ -524,7 +526,7 @@ p {
     position: fixed;
     top: calc(50px + 5vh);
     width: 80%;
-    z-index: 3000;
+    z-index: 2000;
   }
   .footer {
     font-size: 10px;
@@ -534,7 +536,8 @@ p {
   }
   .sidebar {
     width: 90%;
-    height: calc(70% - 20px);
-    top: calc(60px + 5vh);
+    height: calc(75% - 20px);
+    top: calc(55px + 5vh);
+    z-index: 3000;
   }
 }

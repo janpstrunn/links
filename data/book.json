@@ -8,13 +8,6 @@
   },
   {
     "id": "book",
-    "sub_id": "Vet",
-    "title": "Immunology - NCBI",
-    "url": "https://www.ncbi.nlm.nih.gov/books/NBK7795/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
-  },
-  {
-    "id": "book",
     "sub_id": "Code",
     "title": "Free Programming Books",
     "url": "https://github.com/EbookFoundation/free-programming-books#readme",

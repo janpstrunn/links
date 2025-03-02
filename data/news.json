@@ -36,27 +36,6 @@
   },
   {
     "id": "news",
-    "sub_id": "Vet",
-    "title": "Clinician's Brief",
-    "url": "https://www.cliniciansbrief.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.cliniciansbrief.com.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "DVM360",
-    "url": "https://www.dvm360.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.dvm360.com.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "Vet Cornell",
-    "url": "https://www.vet.cornell.edu/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.vet.cornell.edu.ico"
-  },
-  {
-    "id": "news",
     "sub_id": "Tech",
     "title": "Phoronix",
     "url": "https://www.phoronix.com/",
@@ -68,34 +47,6 @@
     "title": "BBC News",
     "url": "https://www.bbc.com/news",
     "icon": "https://external-content.duckduckgo.com/ip3/www.bbc.com.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "TotalVet",
-    "url": "https://total.vet/",
-    "icon": "https://external-content.duckduckgo.com/ip3/total.vet.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "VetTimes",
-    "url": "https://www.vettimes.com/news/vets",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.vettimes.com.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "Today's Vet Business",
-    "url": "https://todaysveterinarybusiness.com/veterinary-news/",
-    "icon": "https://external-content.duckduckgo.com/ip3/todaysveterinarybusiness.com.ico"
-  },
-  {
-    "id": "news",
-    "sub_id": "Vet",
-    "title": "VetGirl",
-    "url": "https://vetgirlontherun.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/vetgirlontherun.com.ico"
   },
   {
     "id": "news",
