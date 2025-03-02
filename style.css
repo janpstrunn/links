@@ -97,7 +97,7 @@ body {
 
 main {
   position: fixed;
-  right: 100%;
+  display: contents;
 }
 
 .toggle-btn {
@@ -463,7 +463,7 @@ p {
   color: #8720fc;
 }
 
-.rust {
+.rs {
   color: #fcae5f;
 }
 
@@ -521,6 +521,8 @@ p {
     font-size: 10px;
   }
   .sidebar {
-    width: 100%;
+    width: 90%;
+    height: calc(70% - 20px);
+    top: calc(60px + 5vh);
   }
 }
