@@ -526,7 +526,7 @@ p {
     overflow-x: scroll;
     padding: 0 10px;
     position: fixed;
-    top: calc(50px + 5vh);
+    top: calc(30px + 5vh);
     width: 80%;
     z-index: 2000;
   }
@@ -543,5 +543,9 @@ p {
     transition: transform 0s ease-in-out;
     width: 90%;
     z-index: 3000;
+  }
+  .columns-container {
+    height: calc(80% - 25px);
+    top: calc(85px + 5vh);
   }
 }
