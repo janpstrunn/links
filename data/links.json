@@ -1104,5 +1104,19 @@
     "title": "Nerd Icons",
     "url": "https://www.nerdfonts.com/cheat-sheet",
     "icon": "https://external-content.duckduckgo.com/ip3/www.nerdfonts.com.ico"
+  },
+  {
+    "id": "ai",
+    "sub_id": "Libraries",
+    "title": "Vosk",
+    "url": "https://alphacephei.com/vosk/",
+    "icon": "https://external-content.duckduckgo.com/ip3/alphacephei.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "SVG Repo",
+    "url": "https://www.svgrepo.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.svgrepo.com.ico"
   }
 ]
