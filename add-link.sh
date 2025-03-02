@@ -1,12 +1,7 @@
 #!/bin/bash
 
 while true; do
-  if [ -f "./data/links.json" ]; then
-    id=$(jq -r 'map(.id) | unique[]' ./data/links.json | fzf --prompt "Enter the ID for the Link: ")
-  else
-    echo "Enter the ID for the link:"
-    read -r id
-  fi
+  id=$(ls ./data/ | awk -F '.' '{print $1}' | fzf --prompt "Enter the ID for the Link: ")
   if [[ -z "$id" ]]; then
     echo "Create a new ID? (y/n)"
     read -r idcreate
@@ -21,7 +16,7 @@ while true; do
   fi
 
   if [ -n "$id" ]; then
-    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ./data/links.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
+    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ./data/$id.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
   else
     echo "Enter the ID for the link:"
     read -r sub_id
@@ -61,16 +56,16 @@ while true; do
   url_escaped=$(echo "$url" | sed 's/"/\\"/g')
   icon_url_escaped=$(echo "$icon_url" | sed 's/"/\\"/g')
 
-  if [ -s data/links.json ]; then
+  if [ -s data/$id.json ]; then
     jq --arg id "$id_escaped" --arg sub_id "$sub_id_escaped" --arg title "$title_escaped" --arg url "$url_escaped" --arg icon "$icon_url_escaped" \
-      '. += [{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' data/links.json >temp.json && mv temp.json data/links.json
+      '. += [{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' data/$id.json >temp.json && mv temp.json data/$id.json
   else
     jq -n --arg id "$id_escaped" --arg sub_id "$sub_id_escaped" --arg title "$title_escaped" --arg url "$url_escaped" --arg icon "$icon_url_escaped" \
-      '[{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' >data/links.json
+      '[{"id": $id, "sub_id": $sub_id, "title": $title, "url": $url, "icon": $icon}]' >data/$id.json
   fi
 
   if [ $? -eq 0 ]; then
-    echo "Link added successfully to links.json!"
+    echo "Link added successfully to $id.json!"
     if [ -n "$newid" ]; then
       echo "You have added a new ID!"
       echo "You must manually add a new button in the index.html!"
