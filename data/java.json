@@ -16,13 +16,6 @@
   {
     "id": "java",
     "sub_id": "Guides",
-    "title": "Learn Java Online",
-    "url": "https://www.learnjavaonline.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learnjavaonline.org.ico"
-  },
-  {
-    "id": "java",
-    "sub_id": "Guides",
     "title": "QuickRef",
     "url": "https://quickref.me/java",
     "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
@@ -61,5 +54,12 @@
     "title": "JavaBook",
     "url": "https://books.goalkicker.com/JavaBook/",
     "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn Java",
+    "url": "https://dev.java/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/dev.java.ico"
   }
 ]
