@@ -1,0 +1,170 @@
+[
+  {
+    "id": "vet_content",
+    "sub_id": "Guidelines",
+    "title": "WSAVA",
+    "url": "https://wsava.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/wsava.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "icon": "https://external-content.duckduckgo.com/ip3/pubmed.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Guidelines",
+    "title": "Virginia Tech",
+    "url": "https://guides.lib.vt.edu/oer/vetmed",
+    "icon": "https://external-content.duckduckgo.com/ip3/guides.lib.vt.edu.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Guidelines",
+    "title": "Vin",
+    "url": "https://www.vin.com/apputil/content/defaultadv1.aspx?pId=19840",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vin.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Courses",
+    "title": "FioCruz",
+    "url": "https://campusvirtual.fiocruz.br/portal/?q=inscricao-selecao&field_unidades_target_id_entityreference_filter=All",
+    "icon": "https://external-content.duckduckgo.com/ip3/campusvirtual.fiocruz.br.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Courses",
+    "title": "CPT Cursos",
+    "url": "https://www.cptcursospresenciais.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cptcursospresenciais.com.br.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Courses",
+    "title": "Vet Profissional",
+    "url": "https://www.vetprofissional.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vetprofissional.com.br.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "BioMedCentral",
+    "url": "https://www.biomedcentral.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.biomedcentral.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "Britannica",
+    "url": "https://www.britannica.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.britannica.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "MDPI",
+    "url": "https://www.mdpi.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mdpi.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "Microbiology Research",
+    "url": "https://www.microbiologyresearch.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.microbiologyresearch.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "Nature",
+    "url": "https://www.nature.com/srep/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.nature.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "PLOS",
+    "url": "https://journals.plos.org/plosone/",
+    "icon": "https://external-content.duckduckgo.com/ip3/journals.plos.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "PNAS",
+    "url": "https://www.pnas.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.pnas.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "SciElo",
+    "url": "https://scielo.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/scielo.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Guidelines",
+    "title": "AAHA Guidelines",
+    "url": "https://www.aaha.org/for-veterinary-professionals/aaha-guidelines/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.aaha.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Guidelines",
+    "title": "VetLit",
+    "url": "https://vetlit.org/consensus-statements-and-guidelines/",
+    "icon": "https://external-content.duckduckgo.com/ip3/vetlit.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Articles",
+    "title": "Google Scholar",
+    "url": "https://scholar.google.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/scholar.google.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Library",
+    "title": "MedLinePlus",
+    "url": "https://medlineplus.gov/",
+    "icon": "https://external-content.duckduckgo.com/ip3/medlineplus.gov.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Library",
+    "title": "CDC",
+    "url": "https://www.cdc.gov/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cdc.gov.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Library",
+    "title": "eMedicineHealth",
+    "url": "https://www.emedicinehealth.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.emedicinehealth.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Library",
+    "title": "Merck Manuals",
+    "url": "https://www.merckmanuals.com/professional",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.merckmanuals.com.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Library",
+    "title": "WikiMSK",
+    "url": "https://wikimsk.org/wiki/Main_Page",
+    "icon": "https://external-content.duckduckgo.com/ip3/wikimsk.org.ico"
+  },
+  {
+    "id": "vet_content",
+    "sub_id": "Class",
+    "title": "Aula de Anatomia",
+    "url": "https://www.auladeanatomia.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.auladeanatomia.com.ico"
+  }
+]
