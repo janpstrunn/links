@@ -2,13 +2,6 @@
   {
     "id": "py",
     "sub_id": "Basics",
-    "title": "Learn Python",
-    "url": "https://www.learnpython.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
-  },
-  {
-    "id": "py",
-    "sub_id": "Basics",
     "title": "Python Docs",
     "url": "https://docs.python.org/3/",
     "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
