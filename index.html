@@ -161,25 +161,20 @@
 
       // Function to load JSON and update content
       function switchSection(section) {
-        // Dynamically map the section to its corresponding JSON file
         const jsonFile = jsonMappings[section];
-
         if (!jsonFile) {
           console.error("No JSON file mapped for section:", section);
           return;
         }
 
-        // Clear the content container before starting to load new data
         let container = document.getElementById("content-container");
-        container.innerHTML = ""; // Clear previous content immediately
+        container.innerHTML = "";
 
-        // Fetch the new JSON file and process it
         fetch(jsonFile)
           .then((response) => response.json())
           .then((links) => {
             let groupedLinks = {};
 
-            // Group the links by id and sub_id
             links.forEach((link) => {
               if (!groupedLinks[link.id]) groupedLinks[link.id] = {};
               if (!groupedLinks[link.id][link.sub_id])
@@ -187,55 +182,57 @@
               groupedLinks[link.id][link.sub_id].push(link);
             });
 
-            // Construct the columns for the new section
-            Object.keys(groupedLinks).forEach((id) => {
-              let sectionDiv = document.createElement("div");
-              sectionDiv.className = "section hidden";
-              sectionDiv.id = id;
+            Object.keys(groupedLinks)
+              .sort()
+              .forEach((id) => {
+                let sectionDiv = document.createElement("div");
+                sectionDiv.className = "section hidden";
+                sectionDiv.id = id;
 
-              let sectionTitle = document.createElement("h2");
-              sectionTitle.textContent = `${id.toUpperCase()}`;
-              sectionTitle.className = `${id}`;
-              sectionDiv.appendChild(sectionTitle);
+                let sectionTitle = document.createElement("h2");
+                sectionTitle.textContent = `${id.toUpperCase()}`;
+                sectionTitle.className = `${id}`;
+                sectionDiv.appendChild(sectionTitle);
 
-              let columnsContainer = document.createElement("div");
-              columnsContainer.className = "columns-container"; // Wraps all columns
+                let columnsContainer = document.createElement("div");
+                columnsContainer.className = "columns-container";
 
-              Object.keys(groupedLinks[id]).forEach((sub_id) => {
-                let columnDiv = document.createElement("div");
-                columnDiv.className = "column";
+                Object.keys(groupedLinks[id])
+                  .sort()
+                  .forEach((sub_id) => {
+                    let columnDiv = document.createElement("div");
+                    columnDiv.className = "column";
 
-                let subIdTitle = document.createElement("h3");
-                subIdTitle.className = `sub_id_title ${id}`;
-                subIdTitle.textContent = `${sub_id}`;
-                columnDiv.appendChild(subIdTitle);
+                    let subIdTitle = document.createElement("h3");
+                    subIdTitle.className = `sub_id_title ${id}`;
+                    subIdTitle.textContent = `${sub_id}`;
+                    columnDiv.appendChild(subIdTitle);
 
-                groupedLinks[id][sub_id].forEach((link) => {
-                  let a = document.createElement("a");
-                  a.href = link.url;
-                  a.className = "card";
-                  a.innerHTML = `<img src="${link.icon}" width="32"><p>${link.title}</p>`;
-                  columnDiv.appendChild(a);
-                });
+                    groupedLinks[id][sub_id]
+                      .sort((a, b) => a.title.localeCompare(b.title))
+                      .forEach((link) => {
+                        let a = document.createElement("a");
+                        a.href = link.url;
+                        a.className = "card";
+                        a.innerHTML = `<img src="${link.icon}" width="32"><p>${link.title}</p>`;
+                        columnDiv.appendChild(a);
+                      });
 
-                columnsContainer.appendChild(columnDiv);
+                    columnsContainer.appendChild(columnDiv);
+                  });
+
+                sectionDiv.appendChild(columnsContainer);
+                container.appendChild(sectionDiv);
               });
 
-              sectionDiv.appendChild(columnsContainer);
-              container.appendChild(sectionDiv);
-            });
-
-            // Hide all sections before showing the active one
             const allSections = document.querySelectorAll(".section");
             allSections.forEach((section) => section.classList.add("hidden"));
 
-            // Show the new section
             const targetSection = document.getElementById(section);
             if (targetSection) {
               targetSection.classList.remove("hidden");
             }
 
-            // Add "active" class to the clicked button
             document
               .querySelectorAll(".section-selector button")
               .forEach((button) => {
