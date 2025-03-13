@@ -138,5 +138,12 @@
     "title": "NCBI - Free Online Books",
     "url": "https://www.ncbi.nlm.nih.gov/books/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "OpenAPK",
+    "url": "https://www.openapk.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.openapk.net.ico"
   }
 ]

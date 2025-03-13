@@ -292,5 +292,89 @@
     "title": "CryptPad",
     "url": "https://cryptpad.fr/",
     "icon": "https://external-content.duckduckgo.com/ip3/cryptpad.fr.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Arch Linux",
+    "url": "https://archlinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/archlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Linux Mint",
+    "url": "https://www.linuxmint.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.linuxmint.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Tails OS",
+    "url": "https://tails.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/tails.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "NixOS",
+    "url": "https://nixos.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/nixos.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Fedora",
+    "url": "https://fedoraproject.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/fedoraproject.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Alpine Linux",
+    "url": "https://www.alpinelinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.alpinelinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Debian",
+    "url": "https://www.debian.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.debian.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Kali Linux",
+    "url": "https://www.kali.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.kali.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Proxmox",
+    "url": "https://www.proxmox.com/en/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.proxmox.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Zorin OS",
+    "url": "https://zorin.com/os/",
+    "icon": "https://external-content.duckduckgo.com/ip3/zorin.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Void Linux",
+    "url": "https://voidlinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/voidlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Endeavour OS",
+    "url": "https://endeavouros.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/endeavouros.com.ico"
   }
 ]
