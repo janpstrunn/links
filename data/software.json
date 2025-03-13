@@ -376,5 +376,19 @@
     "title": "Endeavour OS",
     "url": "https://endeavouros.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/endeavouros.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Ubuntu",
+    "url": "https://ubuntu.com/download",
+    "icon": "https://external-content.duckduckgo.com/ip3/ubuntu.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Emacs",
+    "url": "https://www.gnu.org/software/emacs/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.gnu.org.ico"
   }
 ]
