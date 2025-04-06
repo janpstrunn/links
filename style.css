@@ -107,7 +107,7 @@ main {
   padding-top: 0px;
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 12px;
   overflow: hidden;
   transition-duration: 0.5s;
   z-index: 9999;
@@ -186,7 +186,7 @@ button:hover {
   box-sizing: border-box;
   color: white;
   display: flex;
-  height: 60px;
+  height: 55px;
   justify-content: space-between;
   left: 0;
   margin: 0;
@@ -216,7 +216,7 @@ h1.homepage-title {
   border-radius: 10px;
   color: white;
   flex-grow: 1;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   height: 80%;
   justify-content: flex-start;
@@ -280,6 +280,7 @@ h3 {
   max-width: 100%;
   overflow: hidden;
   padding: 10px;
+  text-wrap: nowrap;
 }
 
 .content-container {
@@ -314,8 +315,8 @@ h3 {
 .column {
   align-content: center;
   align-items: center;
-  background-color: rgba(19, 14, 28, 0.9);
-  border-radius: 10px;
+  background-color: rgba(19, 14, 28, 0.5);
+  border-radius: 20px;
   display: flex;
   display: grid;
   flex-direction: row;
