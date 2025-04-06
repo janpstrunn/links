@@ -127,7 +127,7 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
-  justify-content: flex-start;
+  justify-content: center;
   overflow-x: scroll;
   padding: 0 10px;
   position: fixed;
