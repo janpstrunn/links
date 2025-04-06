@@ -507,7 +507,7 @@ p {
 }
 
 /* Mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
   html {
     height: 100%;
     min-width: 100vw;
@@ -533,7 +533,7 @@ p {
     padding: 0 10px;
     position: fixed;
     top: calc(30px + 5vh);
-    width: 80%;
+    width: 100%;
     z-index: 2000;
   }
   .footer {
@@ -560,5 +560,9 @@ p {
     height: 35px;
     min-width: 35px;
     top: 10px;
+  }
+
+  h3 {
+    text-wrap: wrap;
   }
 }
