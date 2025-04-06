@@ -1,3 +1,18 @@
+/* Palette */
+:root {
+  --accent: #7c5cff;
+  --border-accent: #7c5cff;
+  --background: #110d19;
+  --column: rgba(19, 14, 28, 0.5);
+  --box-shadow: rgba(0, 0, 0, 0.3);
+  --sidebar: rgba(177, 177, 177, 1);
+  --button: rgba(19, 14, 28, 0.9);
+  --active-button: rgba(74, 11, 79, 0.5);
+  --title: rgba(19, 14, 28, 0.9);
+  --card: rgba(44, 42, 52, 0.8);
+  --link: #ffffff;
+}
+
 html {
   background-attachment: fixed;
   background-image: url("./assets/links-bg.jpg");
@@ -15,11 +30,11 @@ body {
 }
 
 .sidebar {
-  background-color: #110d19;
-  border: 2px solid #7c5cff;
+  background-color: var(--background);
+  border: 2px solid var(--border-accent);
   border-radius: 20px;
   bottom: 10px;
-  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: -5px 0 10px var(--box-shadow);
   flex-grow: 1;
   height: 100%;
   max-height: calc(80vh - 5px);
@@ -42,7 +57,7 @@ body {
 .sidebar h4 {
   margin-bottom: 10px;
   text-align: left;
-  color: rgba(177, 177, 177, 1);
+  color: var(--sidebar);
   font-size: 0.75em;
   font-weight: bold;
   max-width: 100%;
@@ -59,7 +74,7 @@ body {
 
 .sidebar button {
   background-color: transparent;
-  border: 0px solid #7c5cff;
+  border: 0px solid var(--border-accent);
   border-radius: 0px;
   color: white;
   font-size: 0.8em;
@@ -114,7 +129,7 @@ main {
 }
 
 .toggle-btn:hover {
-  background-color: #7c5cff;
+  background-color: var(--accent);
 }
 
 .sidebar-content {
@@ -148,8 +163,8 @@ main {
 }
 
 button {
-  background-color: rgba(19, 14, 28, 0.9);
-  border: 2px solid #7c5cff;
+  background-color: var(--button);
+  border: 2px solid var(--border-accent);
   border-radius: 10px;
   color: white;
   font-size: 16px;
@@ -167,7 +182,7 @@ button {
 }
 
 button:hover {
-  background-color: #7c5cff;
+  background-color: var(--accent);
   color: white;
   cursor: pointer;
 }
@@ -177,12 +192,12 @@ button:hover {
 }
 
 .active {
-  background-color: rgba(74, 11, 79, 0.5);
+  background-color: var(--active-button);
 }
 
 .header {
   align-items: center;
-  background-color: rgba(19, 14, 28, 0.9);
+  background-color: var(--title);
   box-sizing: border-box;
   color: white;
   display: flex;
@@ -211,8 +226,8 @@ button:hover {
 
 h1.homepage-title {
   align-items: center;
-  background-color: rgba(19, 14, 28, 0.9);
-  border: 0px solid #7c5cff;
+  background-color: var(--title);
+  border: 0px solid var(--border-accent);
   border-radius: 10px;
   color: white;
   flex-grow: 1;
@@ -237,8 +252,8 @@ h1.homepage-title {
 }
 
 h1 {
-  background-color: rgba(19, 14, 28, 0.9);
-  border: 2px solid #7c5cff;
+  background-color: var(--title);
+  border: 2px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   display: flex;
@@ -251,8 +266,8 @@ h1 {
 }
 
 h2 {
-  background-color: rgba(19, 14, 28, 0.9);
-  border: 2px solid #7c5cff;
+  background-color: var(--title);
+  border: 2px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   display: none;
@@ -270,8 +285,8 @@ h2 {
 }
 
 h3 {
-  background-color: rgba(19, 14, 28, 0.9);
-  border: 2px solid #7c5cff;
+  background-color: var(--title);
+  border: 2px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   font-size: 26px;
@@ -315,7 +330,7 @@ h3 {
 .column {
   align-content: center;
   align-items: center;
-  background-color: rgba(19, 14, 28, 0.5);
+  background-color: var(--column);
   border-radius: 20px;
   display: flex;
   display: grid;
@@ -331,8 +346,8 @@ h3 {
 
 .card {
   align-items: center;
-  background-color: rgba(44, 42, 52, 0.8);
-  border: 2px solid #7c5cff;
+  background-color: var(--card);
+  border: 2px solid var(--border-accent);
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -357,7 +372,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: var(--link);
   font-size: 15px;
   text-decoration: none;
 }
@@ -370,7 +385,7 @@ p {
 
 .footer {
   align-items: center;
-  background-color: rgba(19, 14, 28, 0.9);
+  background-color: var(--title);
   bottom: 0;
   color: white;
   display: flex;
@@ -393,7 +408,7 @@ p {
 }
 
 .footer a {
-  color: #7c5cff;
+  color: var(--accent);
   margin: 0 10px;
   text-decoration: none;
 }
@@ -439,7 +454,7 @@ p {
     font-size: 10px;
   }
   .sidebar {
-    border: 0px solid #7c5cff;
+    border: 0px solid var(--border-accent);
     border-radius: 0px;
     top: calc(30px + 5vh);
     transition: transform 0s ease-in-out;
