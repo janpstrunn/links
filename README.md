@@ -35,6 +35,14 @@ Initially the webpage is constructed appending the top buttons to it, which can 
 
 ## How to use
 
+### Setup
+
+You can you the `setup.sh` script to change your username and name in the `index.html` for you.
+
+Currently, you will manually need to change the jsonMappings in the `index.html` file, configure the `button.css` to add your classes and create more pages at `pages/` and the function to change the pages.
+
+### Hosting
+
 You can locally run your webpage by running the following command in the root directory of this project.
 
 ```bash
