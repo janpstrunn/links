@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🔗 Links: A Browser Homepage
+  <h1>🔗 Links: Share Your Links
   </h1>
   <img src="./assets/links_thumbnail.png">
 </div>
