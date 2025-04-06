@@ -5,5 +5,390 @@
     "title": "PrivacyTools",
     "url": "https://www.privacytools.io/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.privacytools.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "PrivacyTests",
+    "url": "https://privacytests.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/privacytests.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "BrowserLeaks",
+    "url": "https://browserleaks.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/browserleaks.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tests",
+    "title": "Cover Your Tracks",
+    "url": "https://coveryourtracks.eff.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/coveryourtracks.eff.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Guides",
+    "title": "PrivacyGuide",
+    "url": "https://www.privacyguides.org/en/basics/why-privacy-matters/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.privacyguides.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Obsidian",
+    "url": "https://obsidian.md/",
+    "icon": "https://external-content.duckduckgo.com/ip3/obsidian.md.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Logseq",
+    "url": "https://logseq.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/logseq.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Neovim",
+    "url": "https://neovim.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/neovim.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Notion",
+    "url": "https://www.notion.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.notion.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Capacities",
+    "url": "https://capacities.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/capacities.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Kortex",
+    "url": "https://www.kortex.co/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.kortex.co.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Notesnook",
+    "url": "https://notesnook.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/notesnook.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tasks",
+    "title": "Todoist",
+    "url": "https://www.todoist.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.todoist.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Tasks",
+    "title": "Taskwarrior",
+    "url": "https://taskwarrior.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/taskwarrior.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Images",
+    "title": "GIMP",
+    "url": "https://www.gimp.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.gimp.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Images",
+    "title": "Krita",
+    "url": "https://krita.org",
+    "icon": "https://external-content.duckduckgo.com/ip3/krita.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "Shotcut",
+    "url": "https://www.shotcut.org",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.shotcut.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "OBS Studio",
+    "url": "https://obsproject.com",
+    "icon": "https://external-content.duckduckgo.com/ip3/obsproject.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Audio",
+    "title": "Audacity",
+    "url": "https://www.audacityteam.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.audacityteam.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Download",
+    "title": "JDownloader",
+    "url": "https://jdownloader.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/jdownloader.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Download",
+    "title": "yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Images",
+    "title": "Converseen",
+    "url": "https://converseen.fasterland.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/converseen.fasterland.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Audio",
+    "title": "Fre:ac",
+    "url": "https://www.freac.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.freac.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "Handbrake",
+    "url": "https://handbrake.fr/",
+    "icon": "https://external-content.duckduckgo.com/ip3/handbrake.fr.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "FreeTube",
+    "url": "https://freetubeapp.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/freetubeapp.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "NewPipe",
+    "url": "https://newpipe.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/newpipe.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Videos",
+    "title": "Invidious",
+    "url": "https://invidious.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/invidious.io.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Zen",
+    "url": "https://zen-browser.app/",
+    "icon": "https://external-content.duckduckgo.com/ip3/zen-browser.app.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Arc",
+    "url": "https://arc.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/arc.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Brave",
+    "url": "https://brave.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/brave.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Vivaldi",
+    "url": "https://vivaldi.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/vivaldi.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "QuteBrowser",
+    "url": "https://qutebrowser.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/qutebrowser.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Search Engine",
+    "title": "DuckDuckGo",
+    "url": "https://duckduckgo.com",
+    "icon": "https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Search Engine",
+    "title": "Startpage",
+    "url": "https://www.startpage.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.startpage.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Search Engine",
+    "title": "SearX",
+    "url": "https://searx.tiekoetter.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/searx.tiekoetter.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Search Engine",
+    "title": "Brave Search",
+    "url": "https://search.brave.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/search.brave.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "LibreWolf",
+    "url": "https://librewolf.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/librewolf.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Tor Browser",
+    "url": "https://www.torproject.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.torproject.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Mullvad Browser",
+    "url": "https://mullvad.net/en/browser",
+    "icon": "https://external-content.duckduckgo.com/ip3/mullvad.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Office",
+    "title": "LibreOffice",
+    "url": "https://www.libreoffice.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.libreoffice.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Office",
+    "title": "OnlyOffice",
+    "url": "https://www.onlyoffice.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.onlyoffice.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Office",
+    "title": "CryptPad",
+    "url": "https://cryptpad.fr/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cryptpad.fr.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Arch Linux",
+    "url": "https://archlinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/archlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Linux Mint",
+    "url": "https://www.linuxmint.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.linuxmint.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Tails OS",
+    "url": "https://tails.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/tails.net.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "NixOS",
+    "url": "https://nixos.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/nixos.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Fedora",
+    "url": "https://fedoraproject.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/fedoraproject.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Alpine Linux",
+    "url": "https://www.alpinelinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.alpinelinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Debian",
+    "url": "https://www.debian.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.debian.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Kali Linux",
+    "url": "https://www.kali.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.kali.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Proxmox",
+    "url": "https://www.proxmox.com/en/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.proxmox.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Zorin OS",
+    "url": "https://zorin.com/os/",
+    "icon": "https://external-content.duckduckgo.com/ip3/zorin.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Void Linux",
+    "url": "https://voidlinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/voidlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Endeavour OS",
+    "url": "https://endeavouros.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/endeavouros.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "Ubuntu",
+    "url": "https://ubuntu.com/download",
+    "icon": "https://external-content.duckduckgo.com/ip3/ubuntu.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Notes",
+    "title": "Emacs",
+    "url": "https://www.gnu.org/software/emacs/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.gnu.org.ico"
   }
 ]

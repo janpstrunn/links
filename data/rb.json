@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rb",
+    "sub_id": "Basics",
+    "title": "Ruby Docs",
+    "url": "https://www.ruby-lang.org/en/documentation/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ruby-lang.org.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Basics",
+    "title": "Standard Libraries",
+    "url": "https://www.ruby-lang.org/en/libraries/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ruby-lang.org.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Books",
+    "title": "Ruby Hacking Guide",
+    "url": "https://ruby-hacking-guide.github.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ruby-hacking-guide.github.io.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Guide",
+    "title": "Ruby in 20 minutes",
+    "url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ruby-lang.org.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Guide",
+    "title": "Learn Ruby",
+    "url": "https://www.learnrubyonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnrubyonline.org.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Guide",
+    "title": "Learn Ruby",
+    "url": "https://www.learnrubyonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnrubyonline.org.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Books",
+    "title": "RubyOnRailsBook",
+    "url": "https://books.goalkicker.com/RubyOnRailsBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "rb",
+    "sub_id": "Books",
+    "title": "RubyBook",
+    "url": "https://books.goalkicker.com/RubyBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  }
+]

@@ -14,7 +14,7 @@
       property="og:image"
       content="https://raw.githubusercontent.com/janpstrunn/links/refs/heads/main/assets/links_thumbnail.png"
     />
-    <meta property="og:url" content="https://username.github.io/links/" />
+    <meta property="og:url" content="https://janpstrunn.github.io/links/" />
 
     <meta name="twitter:title" content="Links" />
     <meta
@@ -68,14 +68,34 @@
 
       <button onclick="changePage('home'); toggleSidebar();">Main Page</button>
 
-      <a href="https://github.com/username/links">Source Code</a>
+      <a href="https://github.com/janpstrunn/links">Source Code</a>
+
+      <h4>Development</h4>
+
+      <button onclick="changePage('code'); toggleSidebar();">
+        Programming Languages
+      </button>
+
+      <h4>Medicine</h4>
+
+      <button
+        onclick="changePage('vet'); switchSection('vet'); toggleSidebar();"
+      >
+        Veterinary Medicine (PT-BR)
+      </button>
+      <h4>Social</h4>
+      <a href="https://janpstrunn.github.io">Blog</a>
+      <a href="https://github.com/janpstrunn">Github</a>
+      <a href="https://mastodon.social/@janpstrunn">Mastodon</a>
+    </div>
+
     </div>
 
     <!-- Footer -->
     <div class="footer">
       <p>
         <a
-          href="https://github.com/username"
+          href="https://github.com/janpstrunn"
           class="glass-btn !px-3"
           target="_blank"
           ><svg
@@ -94,7 +114,7 @@
             ></path></svg
         ></a>
         <a
-          href="https://mastodon.social/@username"
+          href="https://mastodon.social/@janpstrunn"
           class="glass-btn !px-3"
           target="_blank"
         >
@@ -127,7 +147,7 @@
       </p>
       <span style="padding-right: 15px">
         <!-- Author -->
-        <p>© year myName</p>
+        <p>© 2025 Janpstrunn</p>
       </span>
     </div>
 
@@ -135,13 +155,31 @@
       // Mapping sections to JSON file paths
       const jsonMappings = {
         ai: "data/ai.json",
+        bash: "data/bash.json",
         book: "data/book.json",
         code: "data/code.json",
+        cpp: "data/cpp.json",
+        css: "data/css.json",
         db: "data/db.json",
+        go: "data/go.json",
+        html: "data/html.json",
+        java: "data/java.json",
+        js: "data/js.json",
         lifestyle: "data/lifestyle.json",
+        lua: "data/lua.json",
         news: "data/news.json",
+        py: "data/py.json",
+        rb: "data/rb.json",
+        rs: "data/rs.json",
         software: "data/software.json",
+        sql: "data/sql.json",
+        ts: "data/ts.json",
         yt: "data/yt.json",
+        vet_book: "data/vet_book.json",
+        vet_labs: "data/vet_labs.json",
+        vet_content: "data/vet_content.json",
+        vet_yt: "data/vet_yt.json",
+        vet: "data/vet.json",
       };
 
       // Function to load JSON and update content

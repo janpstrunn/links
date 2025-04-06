@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lua",
+    "sub_id": "Basics",
+    "title": "Lua Docs",
+    "url": "https://www.lua.org/docs.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  },
+  {
+    "id": "lua",
+    "sub_id": "Books",
+    "title": "Programming in Lua",
+    "url": "https://www.lua.org/pil/contents.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  },
+  {
+    "id": "lua",
+    "sub_id": "Guides",
+    "title": "TutorialsPoint",
+    "url": "https://www.tutorialspoint.com/lua/index.htm",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.tutorialspoint.com.ico"
+  },
+  {
+    "id": "lua",
+    "sub_id": "Basics",
+    "title": "Lua Manuals",
+    "url": "https://www.lua.org/manual/5.4/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "VetSmart",
+    "url": "https://www.vetsmart.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vetsmart.com.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "Mendeley",
+    "url": "https://www.mendeley.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mendeley.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "Zotero",
+    "url": "https://www.zotero.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.zotero.org.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "SimplesVet",
+    "url": "https://simples.vet/",
+    "icon": "https://external-content.duckduckgo.com/ip3/simples.vet.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "Consensus",
+    "url": "https://consensus.app/",
+    "icon": "https://external-content.duckduckgo.com/ip3/consensus.app.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Tecnologia",
+    "title": "SciSpace",
+    "url": "https://typeset.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/typeset.io.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "VetTimes",
+    "url": "https://www.vettimes.com/vet/vets",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vettimes.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "Vet Cornell",
+    "url": "https://www.vet.cornell.edu/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "Clinician's Brief",
+    "url": "https://www.cliniciansbrief.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cliniciansbrief.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "TotalVet",
+    "url": "https://total.vet/",
+    "icon": "https://external-content.duckduckgo.com/ip3/total.vet.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "Today's Vet Business",
+    "url": "https://todaysveterinarybusiness.com/veterinary-vet/",
+    "icon": "https://external-content.duckduckgo.com/ip3/todaysveterinarybusiness.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Notícias",
+    "title": "DVM360",
+    "url": "https://www.dvm360.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.dvm360.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "VetGirl",
+    "url": "https://vetgirlontherun.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/vetgirlontherun.com.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Notícias",
+    "title": "World Health Organization",
+    "url": "https://www.who.int/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.who.int.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Cursos",
+    "title": "FioCruz",
+    "url": "https://campusvirtual.fiocruz.br/portal/?q=inscricao-selecao&field_unidades_target_id_entityreference_filter=All",
+    "icon": "https://external-content.duckduckgo.com/ip3/campusvirtual.fiocruz.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Cursos",
+    "title": "CPT Cursos",
+    "url": "https://www.cptcursospresenciais.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.cptcursospresenciais.com.br.ico"
+  },
+  {
+    "id": "vet",
+    "sub_id": "Cursos",
+    "title": "Vet Profissional",
+    "url": "https://www.vetprofissional.com.br/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.vetprofissional.com.br.ico"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "MySQL",
+    "url": "https://www.mysql.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mysql.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "PostgreSQL",
+    "url": "https://www.postgresql.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.postgresql.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "SQLite",
+    "url": "https://www.sqlite.org/index.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.sqlite.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "MariaDB",
+    "url": "https://mariadb.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/mariadb.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "CQL",
+    "url": "https://cassandra.apache.org/doc/stable/cassandra/cql/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cassandra.apache.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "BigQuery",
+    "url": "https://cloud.google.com/bigquery",
+    "icon": "https://external-content.duckduckgo.com/ip3/cloud.google.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "Use the Index, Luke!",
+    "url": "https://use-the-index-luke.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/use-the-index-luke.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Basics",
+    "title": "Oracle SQL",
+    "url": "https://livesql.oracle.com/ords/f?p=590:1000",
+    "icon": "https://external-content.duckduckgo.com/ip3/livesql.oracle.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "Learn SQL",
+    "url": "https://www.sqltutorial.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.sqltutorial.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Exercises",
+    "title": "SQLBolt",
+    "url": "https://sqlbolt.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/sqlbolt.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "roadmap.sh: SQL",
+    "url": "https://roadmap.sh/sql",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "roadmap.sh: PostgreSQL",
+    "url": "https://roadmap.sh/postgresql-dba",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "QuickRef: MySQL",
+    "url": "https://quickref.me/mysql",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "QuickRef: PostgreSQL",
+    "url": "https://quickref.me/postgres",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Guides",
+    "title": "Learn SQL",
+    "url": "https://www.learnsqlonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnsqlonline.org.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "MySQLBook",
+    "url": "https://books.goalkicker.com/MySQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "PostgreSQLBook",
+    "url": "https://books.goalkicker.com/PostgreSQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "sql",
+    "sub_id": "Books",
+    "title": "SQLBook",
+    "url": "https://books.goalkicker.com/SQLBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  }
+]

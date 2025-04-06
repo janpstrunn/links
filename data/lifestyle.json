@@ -5,5 +5,12 @@
     "title": "Becoming a Minimalist",
     "url": "https://www.becomingminimalist.com/becoming-minimalist-start-here/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.becomingminimalist.com.ico"
+  },
+  {
+    "id": "lifestyle",
+    "sub_id": "Health",
+    "title": "Healthline",
+    "url": "https://www.healthline.com/fitness",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.healthline.com.ico"
   }
 ]

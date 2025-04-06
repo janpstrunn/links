@@ -1,6 +1,69 @@
 [
   {
     "id": "yt",
+    "sub_id": "Privacy",
+    "title": "TechLore",
+    "url": "https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "Cloud Native Corner",
+    "url": "https://www.youtube.com/channel/UCkWVN7H3JqGtJ5Pv5bvCrAw",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "DevOps Toolbox",
+    "url": "https://www.youtube.com/channel/UCYeiozh-4QwuC1sjgCmB92w",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "Diolinux",
+    "url": "https://www.youtube.com/channel/UCEf5U1dB5a2e2S-XUlnhxSA",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "Linkarzu",
+    "url": "https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
+    "title": "ZazenCodes",
+    "url": "https://www.youtube.com/channel/UC4wbCxRPSrkbp5BNsNczbIQ",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Learn-to-Learn",
+    "title": "Justin Sung",
+    "url": "https://www.youtube.com/channel/UC2Zs9v2hL2qZZ7vsAENsg4w",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Learn-to-Learn",
+    "title": "Koi",
+    "url": "https://www.youtube.com/channel/UCBX_-ls-dXuhFNSWSXcHrTA",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Learn-to-Learn",
+    "title": "Ali Abdaal",
+    "url": "https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
     "sub_id": "Tech",
     "title": "ThePrimeTime",
     "url": "https://www.youtube.com/channel/UCUyeluBRhGPCW4rPe_UvBZQ",

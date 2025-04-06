@@ -1,0 +1,107 @@
+[
+  {
+    "id": "vet_labs",
+    "sub_id": "Biblioteca",
+    "title": "Fox Valley - Biblioteca",
+    "url": "https://library.fvtc.edu/VetTech/Start",
+    "icon": "https://external-content.duckduckgo.com/ip3/library.fvtc.edu.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Necropsia",
+    "title": "Necropsy Show and Tell",
+    "url": "https://secure.vet.cornell.edu/nst/toc.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/secure.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Histologia",
+    "title": "Histology Guide",
+    "url": "https://histologyguide.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/histologyguide.com.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Necropsia",
+    "title": "Horse Dissecation",
+    "url": "https://secure.vet.cornell.edu/oed/Horsedissection/",
+    "icon": "https://external-content.duckduckgo.com/ip3/secure.vet.cornell.edu.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Patologia",
+    "title": "Pathology Atlas",
+    "url": "https://www.pathologyatlas.ca/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.pathologyatlas.ca.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Patologia",
+    "title": "WebPathology",
+    "url": "https://www.webpathology.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.webpathology.com.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Patologia",
+    "title": "LibrePathology",
+    "url": "https://librepathology.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/librepathology.org.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Radiografia",
+    "title": "Radiopaedia",
+    "url": "https://radiopaedia.org",
+    "icon": "https://external-content.duckduckgo.com/ip3/radiopaedia.org.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Ultrassonografia",
+    "title": "Ultrasoundpaedia",
+    "url": "https://ultrasoundpaedia.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ultrasoundpaedia.com.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Física",
+    "title": "Phet Colorado",
+    "url": "https://phet.colorado.edu/en/simulations/filter?type=html",
+    "icon": "https://external-content.duckduckgo.com/ip3/phet.colorado.edu.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Química",
+    "title": "MolView",
+    "url": "https://molview.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/molview.org.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Patologia",
+    "title": "PathologyOutlines",
+    "url": "https://www.pathologyoutlines.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.pathologyoutlines.com.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Biblioteca",
+    "title": "Physiopedia",
+    "url": "https://www.physio-pedia.com/index.php?title=Special:GoogleCustomWikiSearch&term=search",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.physio-pedia.com.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Ultrassonografia",
+    "title": "Ultrasound Cases",
+    "url": "https://www.ultrasoundcases.info/cases/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ultrasoundcases.info.ico"
+  },
+  {
+    "id": "vet_labs",
+    "sub_id": "Radiografia",
+    "title": "Radiology Assistant",
+    "url": "https://radiologyassistant.nl/",
+    "icon": "https://external-content.duckduckgo.com/ip3/radiologyassistant.nl.ico"
+  }
+]

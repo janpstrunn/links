@@ -5,5 +5,145 @@
     "title": "Mind Expand Books",
     "url": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Anna's Archive",
+    "url": "https://annas-archive.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.org.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "EmojiDB",
+    "url": "https://emojidb.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/emojidb.org.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Lucide",
+    "url": "https://lucide.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/lucide.dev.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Flaticon",
+    "url": "https://www.flaticon.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.flaticon.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "Plimg",
+    "url": "https://www.pling.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.pling.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Icons8",
+    "url": "https://icons8.com/icons",
+    "icon": "https://external-content.duckduckgo.com/ip3/icons8.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Images",
+    "title": "Unsplash",
+    "url": "https://unsplash.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/unsplash.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Images",
+    "title": "WallHaven",
+    "url": "https://wallhaven.cc/",
+    "icon": "https://external-content.duckduckgo.com/ip3/wallhaven.cc.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Tabler",
+    "url": "https://tabler.io/icons",
+    "icon": "https://external-content.duckduckgo.com/ip3/tabler.io.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Images",
+    "title": "Wallpaper Cave",
+    "url": "https://wallpapercave.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/wallpapercave.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Images",
+    "title": "Wallpaper Access",
+    "url": "https://wallpaperaccess.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/wallpaperaccess.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "LibRedirect",
+    "url": "https://libredirect.github.io/",
+    "icon": "https://external-content.duckduckgo.com/ip3/libredirect.github.io.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "Product Hunt",
+    "url": "https://www.producthunt.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.producthunt.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "Tool Finder",
+    "url": "https://toolfinder.co/",
+    "icon": "https://external-content.duckduckgo.com/ip3/toolfinder.co.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "Nerd Icons",
+    "url": "https://www.nerdfonts.com/cheat-sheet",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.nerdfonts.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Icons",
+    "title": "SVG Repo",
+    "url": "https://www.svgrepo.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.svgrepo.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Online Programming Books",
+    "url": "https://www.onlineprogrammingbooks.com/categories/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Flavio Copes: Programming",
+    "url": "https://flaviocopes.com/access/",
+    "icon": "https://external-content.duckduckgo.com/ip3/flaviocopes.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "NCBI - Free Online Books",
+    "url": "https://www.ncbi.nlm.nih.gov/books/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Tech",
+    "title": "OpenAPK",
+    "url": "https://www.openapk.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.openapk.net.ico"
   }
 ]

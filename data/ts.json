@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ts",
+    "sub_id": "Basics",
+    "title": "Typescript from Scratch",
+    "url": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.typescriptlang.org.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Basics",
+    "title": "Typescript Docs",
+    "url": "https://www.typescriptlang.org/docs/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.typescriptlang.org.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Books",
+    "title": "Typescript Handbook",
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.typescriptlang.org.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Guides",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/typescript/index.php",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/typescript",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Guides",
+    "title": "Learn Typescript",
+    "url": "https://www.learn-ts.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-ts.org.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Exercises",
+    "title": "Typescript Exercises",
+    "url": "https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts",
+    "icon": "https://external-content.duckduckgo.com/ip3/typescript-exercises.github.io.ico"
+  },
+  {
+    "id": "ts",
+    "sub_id": "Books",
+    "title": "TypescriptBook",
+    "url": "https://books.goalkicker.com/TypeScriptBook2/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  }
+]

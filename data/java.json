@@ -1,0 +1,65 @@
+[
+  {
+    "id": "java",
+    "sub_id": "Basics",
+    "title": "Java Docs",
+    "url": "https://dev.java/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.java.com.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Books",
+    "title": "Programming with Java",
+    "url": "https://math.hws.edu/javanotes/#:~:text=Downloading%20And%20Other%20Links",
+    "icon": "https://external-content.duckduckgo.com/ip3/math.hws.edu.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Guides",
+    "title": "QuickRef",
+    "url": "https://quickref.me/java",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Guides",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/java/default.asp",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Exercises",
+    "title": "EdaBit",
+    "url": "https://edabit.com/challenges/java",
+    "icon": "https://external-content.duckduckgo.com/ip3/edabit.com.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/java",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Guides",
+    "title": "Learn Java",
+    "url": "https://www.learnjavaonline.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learnjavaonline.org.ico"
+  },
+  {
+    "id": "java",
+    "sub_id": "Books",
+    "title": "JavaBook",
+    "url": "https://books.goalkicker.com/JavaBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/books.goalkicker.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Languages",
+    "title": "Learn Java",
+    "url": "https://dev.java/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/dev.java.ico"
+  }
+]

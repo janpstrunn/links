@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cpp",
+    "sub_id": "Basics",
+    "title": "Learn C++",
+    "url": "https://www.learncpp.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learncpp.com.ico"
+  },
+  {
+    "id": "cpp",
+    "sub_id": "Books",
+    "title": "CPPBook",
+    "url": "https://www.goalkicker.com/CPlusPlusBook/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.goalkicker.com.ico"
+  },
+  {
+    "id": "cpp",
+    "sub_id": "Guides",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/cpp/cpp_getstarted.asp",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "cpp",
+    "sub_id": "Guides",
+    "title": "QuickRef",
+    "url": "https://quickref.me/cpp",
+    "icon": "https://external-content.duckduckgo.com/ip3/quickref.me.ico"
+  },
+  {
+    "id": "cpp",
+    "sub_id": "Guides",
+    "title": "Learn C++",
+    "url": "https://www.learn-cpp.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-cpp.org.ico"
+  },
+  {
+    "id": "cpp",
+    "sub_id": "Guides",
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/cpp",
+    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+  }
+]

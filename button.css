@@ -7,6 +7,10 @@
   color: #f4f113;
 }
 
+.vet {
+  color: #02f789;
+}
+
 .code {
   color: #8720fc;
 }
@@ -31,14 +35,70 @@
   color: #8720fc;
 }
 
+.go {
+  color: #67d6e4;
+}
+
+.js {
+  color: #fdd83f;
+}
+
+.bash {
+  color: #2ada2b;
+}
+
 .code {
   color: #8720fc;
 }
 
+.vet_content,
+.rs {
+  color: #fcae5f;
+}
+
+.html {
+  color: #f84923;
+}
+
+.css {
+  color: #214cdc;
+}
+
+.vet_yt,
 .yt {
   color: #f60000;
 }
 
+.py {
+  color: #244c6e;
+}
+
+.ts {
+  color: #0176c6;
+}
+
+.sql {
+  color: #0077d2;
+}
+
+.java {
+  color: #e02319;
+}
+
+.vet_book,
 .book {
   color: #a6e3a1;
+}
+
+.vet_labs,
+.cpp {
+  color: #659bd3;
+}
+
+.rb {
+  color: #8b0500;
+}
+
+.lua {
+  color: #fff;
 }

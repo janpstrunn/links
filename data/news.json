@@ -1,9 +1,58 @@
 [
   {
     "id": "news",
+    "sub_id": "Tech",
+    "title": "AlternativeTo",
+    "url": "https://alternativeto.net/",
+    "icon": "https://external-content.duckduckgo.com/ip3/alternativeto.net.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "CyberInsider",
+    "url": "https://cyberinsider.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cyberinsider.com.ico"
+  },
+  {
+    "id": "news",
     "sub_id": "General",
     "title": "ArsTechnica",
     "url": "https://arstechnica.com/",
     "icon": "https://external-content.duckduckgo.com/ip3/arstechnica.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "EFF",
+    "url": "https://eff.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/eff.org.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "The Hacker News",
+    "url": "https://thehackernews.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/thehackernews.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "Tech",
+    "title": "Phoronix",
+    "url": "https://www.phoronix.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.phoronix.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "General",
+    "title": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.bbc.com.ico"
+  },
+  {
+    "id": "news",
+    "sub_id": "General",
+    "title": "TED",
+    "url": "https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
   }
 ]
