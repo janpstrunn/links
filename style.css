@@ -508,6 +508,20 @@ p {
 
 /* Mobile */
 @media screen and (max-width: 480px) {
+  html {
+    height: 100%;
+    min-width: 100vw;
+    width: 100%;
+  }
+
+  body {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    padding: 0;
+    width: 100%;
+  }
+
   .section-selector {
     box-sizing: border-box;
     display: flex;
@@ -539,5 +553,12 @@ p {
   .columns-container {
     height: calc(80% - 25px);
     top: calc(85px + 5vh);
+  }
+
+  .toggle-btn {
+    font-size: 26px;
+    height: 35px;
+    min-width: 35px;
+    top: 10px;
   }
 }
