@@ -285,18 +285,18 @@
             document.getElementById("dynamic-content").innerHTML =
               "<p>Page not found.</p>";
           });
+
+          switchSection(page);
       }
 
       function changePage(page) {
         history.pushState(null, "", `?page=${page}`);
         loadPage();
+        switchSection(page);
       }
 
       window.addEventListener("popstate", loadPage);
-
       loadPage();
-      // Default Section
-      switchSection("ai");
     </script>
   </body>
 </html>
