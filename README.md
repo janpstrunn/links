@@ -47,7 +47,7 @@ Or, perhaps, you want to host it. If so, you can fork it and make the necessary 
 
 For now, new features are not planned.
 
-- [ ] Optimize the overall code
+- [x] Optimize the overall code
 - [ ] Remove hardcoded content
 - [ ] Create a template
 
