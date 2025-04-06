@@ -1,7 +1,31 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+check_command() {
+  for cmd in "$@"; do
+    if command -v "$cmd" &>/dev/null; then
+      return 0
+    else
+      return 1
+    fi
+  done
+}
+
+check_command jq || {
+  echo "jq is not installed. Please install it!"
+  exit 1
+}
 
 while true; do
-  id=$(ls ../data/ | awk -F '.' '{print $1}' | fzf --prompt "Enter the ID for the Link: ")
+  check_command fzf
+  val=$?
+  if [[ "$val" -eq 0 ]]; then
+    # FZF Choice
+    id=$(ls ../data/ | awk -F '.' '{print $1}' | fzf --prompt "Enter the ID for the Link: ")
+  else
+    echo "Enter ID:"
+    read -r id
+  fi
+
   if [[ -z "$id" ]]; then
     echo "Create a new ID? (y/n)"
     read -r idcreate
@@ -16,11 +40,18 @@ while true; do
   fi
 
   if [ -n "$id" ] || [ -f "./data/$id.json" ]; then
-    sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ../data/$id.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
+    if [[ "$val" -eq 0 ]]; then
+      # FZF Choice
+      sub_id=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .sub_id' ../data/$id.json | sort -u | fzf --prompt "Enter the SUB-ID (Category): ")
+    else
+      echo "Enter Sub-ID:"
+      read -r sub_id
+    fi
   else
     echo "Enter the ID for the link:"
     read -r sub_id
   fi
+
   if [[ -z "$sub_id" ]]; then
     echo "Create a new SUB-ID? (y/n)"
     read -r idcreate
