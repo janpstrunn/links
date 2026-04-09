@@ -39,7 +39,7 @@
   color: #67d6e4;
 }
 
-.js {
+.javascript {
   color: #fdd83f;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .vet_content,
-.rs {
+.rust {
   color: #fcae5f;
 }
 
@@ -69,11 +69,11 @@
   color: #f60000;
 }
 
-.py {
+.python {
   color: #244c6e;
 }
 
-.ts {
+.typescript {
   color: #0176c6;
 }
 
@@ -91,11 +91,23 @@
 }
 
 .vet_labs,
-.cpp {
+.cplusplus {
+  color: #D84B3A;
+}
+
+.c {
   color: #659bd3;
 }
 
-.rb {
+.zig {
+  color: #F7B500
+}
+
+.odin {
+  color: #0077d2
+}
+
+.ruby {
   color: #8b0500;
 }
 

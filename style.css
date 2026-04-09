@@ -1,29 +1,26 @@
-/* Palette */
+/* Pallette */
 :root {
-  --accent: #7c5cff;
-  --border-accent: #7c5cff;
-  --background: #110d19;
+  --accent: #5ffcfc;
+  --border-accent: #5ffcfc;
+  --background: #090909;
   --column: rgba(19, 14, 28, 0.5);
   --box-shadow: rgba(0, 0, 0, 0.3);
-  --sidebar: rgba(177, 177, 177, 1);
   --button: rgba(19, 14, 28, 0.9);
   --active-button: rgba(74, 11, 79, 0.5);
-  --title: rgba(19, 14, 28, 0.9);
+  --title: #0c0c0f;
   --card: rgba(44, 42, 52, 0.8);
   --link: #d9d9d9;
   --text: #d9d9d9;
 }
 
 html {
-  background-attachment: fixed;
-  background-image: url("./assets/links-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--background);
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 body {
+  background-color: var(--background);
   align-items: center;
   font-family: Ubuntu, Arial, sans-serif;
   font-size: 14px;
@@ -32,7 +29,7 @@ body {
 
 .sidebar {
   background-color: var(--background);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 20px;
   bottom: 10px;
   box-shadow: -5px 0 10px var(--box-shadow);
@@ -55,23 +52,24 @@ body {
   transform: translateX(0);
 }
 
+.sidebar h4 {
+  margin-bottom: 10px;
+  text-align: left;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
 .sidebar h3 {
   font-size: 1rem;
   color: #fff;
   margin-bottom: 10px;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.sidebar h4 {
-  margin-bottom: 10px;
-  text-align: left;
-  color: var(--sidebar);
-  font-size: 1rem;
-  font-weight: bold;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 10px;
 }
 
 .sidebar a {
@@ -83,8 +81,7 @@ body {
 
 .sidebar button {
   background-color: transparent;
-  border: 0px solid var(--border-accent);
-  border-radius: 0px;
+  border: none;
   color: white;
   font-size: 1rem;
   margin-bottom: 0px;
@@ -150,7 +147,7 @@ main {
 }
 
 .toggle-btn:hover {
-  background-color: var(--accent);
+  background-color: var(--title);
 }
 
 .sidebar-content {
@@ -185,7 +182,7 @@ main {
 
 button {
   background-color: var(--button);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 10px;
   color: white;
   font-size: 16px;
@@ -248,8 +245,7 @@ button:hover {
 h1.homepage-title {
   align-items: center;
   background-color: var(--title);
-  border: 0px solid var(--border-accent);
-  border-radius: 10px;
+  border: none;
   color: white;
   flex-grow: 1;
   font-size: 20px;
@@ -274,7 +270,7 @@ h1.homepage-title {
 
 h1 {
   background-color: var(--title);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   display: flex;
@@ -288,7 +284,7 @@ h1 {
 
 h2 {
   background-color: var(--title);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   display: none;
@@ -307,7 +303,7 @@ h2 {
 
 h3 {
   background-color: var(--title);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -367,7 +363,7 @@ h3 {
 .card {
   align-items: center;
   background-color: var(--card);
-  border: 2px solid var(--border-accent);
+  border: 1px solid var(--border-accent);
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -485,8 +481,7 @@ p {
     font-size: 16px;
   }
   .sidebar {
-    border: 0px solid var(--border-accent);
-    border-radius: 0px;
+    border: none;
     top: 6vh;
     transition: transform 0s ease-in-out;
     width: 90%;

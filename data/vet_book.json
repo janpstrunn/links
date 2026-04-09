@@ -1,21 +1,21 @@
 [
   {
     "id": "vet_book",
-    "sub_id": "Biblioteca",
-    "title": "NCBI - Livros",
+    "sub_id": "Library",
+    "title": "NCBI - Books",
     "url": "https://www.ncbi.nlm.nih.gov/books/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
   },
   {
     "id": "vet_book",
-    "sub_id": "Biblioteca",
-    "title": "Arquivos da Anna",
-    "url": "https://annas-archive.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.org.ico"
+    "sub_id": "Library",
+    "title": "Anna's Archive",
+    "url": "https://annas-archive.gd/",
+    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.gd.ico"
   },
   {
     "id": "vet_book",
-    "sub_id": "Microbiologia",
+    "sub_id": "Microbiology",
     "title": "NCBI - Medical Microbiology",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK7795/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"

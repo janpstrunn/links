@@ -1,0 +1,16 @@
+[
+  {
+    "id": "odin",
+    "sub_id": "Official",
+    "title": "Language Reference",
+    "url": "https://odin-lang.org/docs/overview/",
+    "icon": "https://external-content.duckduckgo.com/ip3/odin-lang.org.ico"
+  },
+  {
+    "id": "odin",
+    "sub_id": "Official",
+    "title": "Packages",
+    "url": "https://pkg.odin-lang.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/odin-lang.org.ico"
+  }
+]

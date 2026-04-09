@@ -1,0 +1,30 @@
+[
+  {
+    "id": "c",
+    "sub_id": "Official",
+    "title": "Website",
+    "url": "https://www.c-language.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/c-language.org.ico"
+  },
+  {
+    "id": "c",
+    "sub_id": "Compilers",
+    "title": "Clang",
+    "url": "https://clang.llvm.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/clang.llvm.org.ico"
+  },
+  {
+    "id": "c",
+    "sub_id": "Compilers",
+    "title": "GNU Compiler Collection (GCC)",
+    "url": "https://gcc.gnu.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/gcc.gnu.org.ico"
+  },
+  {
+    "id": "c",
+    "sub_id": "Compilers",
+    "title": "Tiny C Compiler (TCC)",
+    "url": "https://bellard.org/tcc/",
+    "icon": "https://external-content.duckduckgo.com/ip3/bellard.org.ico"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "zig",
+    "sub_id": "Official",
+    "title": "Language Reference",
+    "url": "https://ziglang.org/documentation/master/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziglang.org.ico"
+  },
+  {
+    "id": "zig",
+    "sub_id": "Official",
+    "title": "Standard Library",
+    "url": "https://ziglang.org/documentation/master/std/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziglang.org.ico"
+  },
+  {
+    "id": "zig",
+    "sub_id": "Community",
+    "title": "Ziggit",
+    "url": "https://ziggit.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziggit.dev.ico"
+  }
+]

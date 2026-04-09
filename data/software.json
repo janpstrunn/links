@@ -247,6 +247,20 @@
   {
     "id": "software",
     "sub_id": "Linux",
+    "title": "Artix Linux",
+    "url": "https://artixlinux.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/artixlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
+    "title": "antiX Linux",
+    "url": "https://antixlinux.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/antixlinux.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
     "title": "Arch Linux",
     "url": "https://archlinux.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/archlinux.org.ico"

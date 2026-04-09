@@ -10,7 +10,7 @@
     "id": "ai",
     "sub_id": "Chatbots",
     "title": "Duck AI",
-    "url": "https://duckduckgo.com/?q=DuckDuckGo%20AI%20Chat&ia=chat&duckai=1",
+    "url": "https://duck.ai",
     "icon": "https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico"
   },
   {
@@ -31,8 +31,8 @@
     "id": "ai",
     "sub_id": "Research",
     "title": "SciSpace",
-    "url": "https://typeset.io/",
-    "icon": "https://external-content.duckduckgo.com/ip3/typeset.io.ico"
+    "url": "https://scispace.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/scispace.com.ico"
   },
   {
     "id": "ai",
