@@ -28,7 +28,6 @@ const jsonMappings = {
   vet_book: "data/vet_book.json",
   vet_content: "data/vet_content.json",
   vet_labs: "data/vet_labs.json",
-  vet_yt: "data/vet_yt.json",
   yt: "data/yt.json",
   zig: "data/zig.json",
 };
