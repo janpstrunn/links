@@ -26,5 +26,19 @@
     "title": "Tiny C Compiler (TCC)",
     "url": "https://bellard.org/tcc/",
     "icon": "https://external-content.duckduckgo.com/ip3/bellard.org.ico"
+  },
+  {
+    "id": "c",
+    "sub_id": "Security",
+    "title": "C Compiler Security by Airbus-Seclab",
+    "url": "https://github.com/airbus-seclab/c-compiler-security",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "c",
+    "sub_id": "Tools",
+    "title": "Compiler Explorer",
+    "url": "https://godbolt.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/godbolt.org.ico"
   }
 ]

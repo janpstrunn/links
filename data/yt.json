@@ -23,6 +23,13 @@
   {
     "id": "yt",
     "sub_id": "Tech",
+    "title": "The Lunduke Journal",
+    "url": "https://www.youtube.com/@Lunduke",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+  },
+  {
+    "id": "yt",
+    "sub_id": "Tech",
     "title": "Linkarzu",
     "url": "https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA",
     "icon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
