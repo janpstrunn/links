@@ -1,7 +1,7 @@
 [
   {
     "id": "book",
-    "sub_id": "Tech",
+    "sub_id": "Programming",
     "title": "Free Programming Books",
     "url": "https://github.com/EbookFoundation/free-programming-books#readme",
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
@@ -36,9 +36,37 @@
   },
   {
     "id": "book",
-    "sub_id": "Tech",
-    "title": "Learn Neovim",
-    "url": "https://ofirgall.github.io/learn-nvim/chapters/00-why-should-i-learn.html",
-    "icon": "https://external-content.duckduckgo.com/ip3/ofirgall.github.io.ico"
+    "sub_id": "Programming",
+    "title": "Use the Index, Luke!",
+    "url": "https://use-the-index-luke.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/use-the-index-luke.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "General",
+    "title": "Mind Expand Books",
+    "url": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Programming",
+    "title": "Online Programming Books",
+    "url": "https://www.onlineprogrammingbooks.com/categories/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Programming",
+    "title": "Flavio Copes: Programming",
+    "url": "https://flaviocopes.com/access/",
+    "icon": "https://external-content.duckduckgo.com/ip3/flaviocopes.com.ico"
+  },
+  {
+    "id": "book",
+    "sub_id": "Medicine",
+    "title": "NCBI - Free Online Books",
+    "url": "https://www.ncbi.nlm.nih.gov/books/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
   }
 ]

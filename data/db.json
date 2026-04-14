@@ -1,17 +1,31 @@
 [
   {
     "id": "db",
-    "sub_id": "Books",
-    "title": "Mind Expand Books",
-    "url": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+    "sub_id": "Courses",
+    "title": "FreeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
   },
   {
     "id": "db",
-    "sub_id": "Books",
-    "title": "Anna's Archive",
-    "url": "https://annas-archive.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.org.ico"
+    "sub_id": "Courses",
+    "title": "HTB",
+    "url": "https://www.hackthebox.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.hackthebox.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Cheat Sheets",
+    "title": "Cheetsheets",
+    "url": "https://cheatsheets.zip/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cheatsheets.zip.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Cheat Sheets",
+    "title": "Awesome CheetSheets",
+    "url": "https://lecoupa.github.io/awesome-cheatsheets/",
+    "icon": "https://external-content.duckduckgo.com/ip3/lecoupa.github.io.ico"
   },
   {
     "id": "db",
@@ -120,30 +134,58 @@
   },
   {
     "id": "db",
-    "sub_id": "Books",
-    "title": "Online Programming Books",
-    "url": "https://www.onlineprogrammingbooks.com/categories/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.onlineprogrammingbooks.com.ico"
-  },
-  {
-    "id": "db",
-    "sub_id": "Books",
-    "title": "Flavio Copes: Programming",
-    "url": "https://flaviocopes.com/access/",
-    "icon": "https://external-content.duckduckgo.com/ip3/flaviocopes.com.ico"
-  },
-  {
-    "id": "db",
-    "sub_id": "Books",
-    "title": "NCBI - Free Online Books",
-    "url": "https://www.ncbi.nlm.nih.gov/books/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.ncbi.nlm.nih.gov.ico"
-  },
-  {
-    "id": "db",
     "sub_id": "Tech",
     "title": "OpenAPK",
     "url": "https://www.openapk.net/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.openapk.net.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "Interactive Tutorials by Ron Reiter ",
+    "url": "https://github.com/ronreiter/interactive-tutorials",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "Mozilla Web Dev",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS",
+    "icon": "https://external-content.duckduckgo.com/ip3/developer.mozilla.org.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "Devdocs",
+    "url": "https://www.devdocs.io",
+    "icon": "https://external-content.duckduckgo.com/ip3/devdocs.io.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "Plangs!",
+    "url": "https://plangs.page/",
+    "icon": "https://external-content.duckduckgo.com/ip3/plangs.page.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Languages",
+    "title": "Languish",
+    "url": "https://tjpalmer.github.io/languish/",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "db",
+    "sub_id": "Books",
+    "title": "Anna's Archive",
+    "url": "https://annas-archive.gd/",
+    "icon": "https://external-content.duckduckgo.com/ip3/annas-archive.org.ico"
   }
 ]

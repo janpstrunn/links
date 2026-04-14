@@ -1,6 +1,20 @@
 [
   {
     "id": "software",
+    "sub_id": "Browser",
+    "title": "Privac Browser",
+    "url": "https://www.stoutner.com/privacy-browser-android/",
+    "icon": "https://external-content.duckduckgo.com/ip3/stoutner.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Browser",
+    "title": "Cromite",
+    "url": "https://github.com/uazo/cromite",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "software",
     "sub_id": "Guides",
     "title": "PrivacyTools",
     "url": "https://www.privacytools.io/",
@@ -289,6 +303,13 @@
   {
     "id": "software",
     "sub_id": "Linux",
+    "title": "Slackware",
+    "url": "http://www.slackware.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/slackware.com.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Linux",
     "title": "Fedora",
     "url": "https://fedoraproject.org/",
     "icon": "https://external-content.duckduckgo.com/ip3/fedoraproject.org.ico"
@@ -355,5 +376,19 @@
     "title": "Emacs",
     "url": "https://www.gnu.org/software/emacs/",
     "icon": "https://external-content.duckduckgo.com/ip3/www.gnu.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Guides",
+    "title": "Arch Wiki",
+    "url": "https://wiki.archlinux.org/title/Main_page",
+    "icon": "https://external-content.duckduckgo.com/ip3/wiki.archlinux.org.ico"
+  },
+  {
+    "id": "software",
+    "sub_id": "Guides",
+    "title": "Gentoo Handbook",
+    "url": "https://wiki.gentoo.org/wiki/Handbook:Main_Page",
+    "icon": "https://external-content.duckduckgo.com/ip3/wiki.gentoo.org.ico"
   }
 ]

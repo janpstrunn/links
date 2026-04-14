@@ -1,149 +1,268 @@
 [
   {
     "id": "code",
-    "sub_id": "Guides",
-    "title": "roadmap.sh",
-    "url": "https://roadmap.sh/",
-    "icon": "https://external-content.duckduckgo.com/ip3/roadmap.sh.ico"
+    "sub_id": "Bash",
+    "title": "Bash Manual",
+    "url": "https://www.gnu.org/software/bash/manual/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.gnu.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Cheat Sheets",
-    "title": "Cheetsheets",
-    "url": "https://cheatsheets.zip/",
-    "icon": "https://external-content.duckduckgo.com/ip3/cheatsheets.zip.ico"
+    "sub_id": "Bash",
+    "title": "POSIX Shell Specifications",
+    "url": "https://pubs.opengroup.org/onlinepubs/9699919799/utilities/contents.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/pubs.opengroup.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Guides",
-    "title": "W3Schools",
-    "url": "https://www.w3schools.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.w3schools.com.ico"
+    "sub_id": "Bash",
+    "title": "GNU Readline",
+    "url": "https://www.gnu.org/software/readline/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.gnu.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Python",
-    "url": "https://www.learnpython.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learnpython.org.ico"
+    "sub_id": "C",
+    "title": "Official Website",
+    "url": "https://www.c-language.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/c-language.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Golang",
-    "url": "https://go.dev/learn/",
-    "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
+    "sub_id": "C",
+    "title": "Clang",
+    "url": "https://clang.llvm.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/clang.llvm.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn C++",
-    "url": "https://www.learn-cpp.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-cpp.org.ico"
+    "sub_id": "C",
+    "title": "GNU Compiler Collection",
+    "url": "https://gcc.gnu.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/gcc.gnu.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Bash",
-    "url": "https://learn-bash.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/learn-bash.org.ico"
+    "sub_id": "C",
+    "title": "Tiny C Compiler",
+    "url": "https://bellard.org/tcc/",
+    "icon": "https://external-content.duckduckgo.com/ip3/bellard.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Java",
-    "url": "https://www.learnjavaonline.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learnjavaonline.org.ico"
+    "sub_id": "C",
+    "title": "C Compiler Security by Airbus-Seclab",
+    "url": "https://github.com/airbus-seclab/c-compiler-security",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
+    "sub_id": "C",
+    "title": "Compiler Explorer",
+    "url": "https://godbolt.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/godbolt.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "C",
+    "title": "chibicc",
+    "url": "https://github.com/rui314/chibicc",
+    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "C++",
+    "title": "cppreference",
+    "url": "https://en.cppreference.com/index.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/en.cppreference.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Lua",
+    "title": "Lua Docs",
+    "url": "https://www.lua.org/docs.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Lua",
+    "title": "Programming in Lua",
+    "url": "https://www.lua.org/pil/contents.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Lua",
+    "title": "Lua Manuals",
+    "url": "https://www.lua.org/manual/5.4/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.lua.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Odin",
+    "title": "Language Reference",
+    "url": "https://odin-lang.org/docs/overview/",
+    "icon": "https://external-content.duckduckgo.com/ip3/odin-lang.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Odin",
+    "title": "Packages",
+    "url": "https://pkg.odin-lang.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/odin-lang.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Python",
+    "title": "Python Docs",
+    "url": "https://docs.python.org/3/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Python",
+    "title": "Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Python",
+    "title": "Standard Library",
+    "url": "https://docs.python.org/3/library/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Python",
+    "title": "Language Reference",
+    "url": "https://docs.python.org/3/reference/",
+    "icon": "https://external-content.duckduckgo.com/ip3/docs.python.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Python",
+    "title": "Python Search",
+    "url": "https://www.python.org/search/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.python.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Zig",
+    "title": "Language Reference",
+    "url": "https://ziglang.org/documentation/master/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziglang.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Zig",
+    "title": "Standard Library",
+    "url": "https://ziglang.org/documentation/master/std/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziglang.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Zig",
+    "title": "Ziggit",
+    "url": "https://ziggit.dev/",
+    "icon": "https://external-content.duckduckgo.com/ip3/ziggit.dev.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "MySQL",
+    "url": "https://www.mysql.com/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.mysql.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "PostgreSQL",
+    "url": "https://www.postgresql.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.postgresql.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "SQLite",
+    "url": "https://www.sqlite.org/index.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.sqlite.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "MariaDB",
+    "url": "https://mariadb.org/",
+    "icon": "https://external-content.duckduckgo.com/ip3/mariadb.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "CQL",
+    "url": "https://cassandra.apache.org/doc/stable/cassandra/cql/",
+    "icon": "https://external-content.duckduckgo.com/ip3/cassandra.apache.org.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "BigQuery",
+    "url": "https://cloud.google.com/bigquery",
+    "icon": "https://external-content.duckduckgo.com/ip3/cloud.google.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Structured Query Language",
+    "title": "Oracle SQL",
+    "url": "https://livesql.oracle.com/ords/f?p=590:1000",
+    "icon": "https://external-content.duckduckgo.com/ip3/livesql.oracle.com.ico"
+  },
+  {
+    "id": "code",
+    "sub_id": "Rust",
     "title": "Learn Rust",
     "url": "https://www.rust-lang.org/learn",
     "icon": "https://external-content.duckduckgo.com/ip3/www.rust-lang.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Courses",
-    "title": "FreeCodeCamp",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "icon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+    "sub_id": "Rust",
+    "title": "Standard Library",
+    "url": "https://doc.rust-lang.org/std/prelude/index.html",
+    "icon": "https://external-content.duckduckgo.com/ip3/doc.rust-lang.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Courses",
-    "title": "LabEx",
-    "url": "https://labex.io/",
-    "icon": "https://external-content.duckduckgo.com/ip3/labex.io.ico"
+    "sub_id": "Ruby",
+    "title": "Ruby Docs",
+    "url": "https://www.ruby-lang.org/en/documentation/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ruby-lang.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Guides",
-    "title": "Arch Wiki",
-    "url": "https://wiki.archlinux.org/title/Main_page",
-    "icon": "https://external-content.duckduckgo.com/ip3/wiki.archlinux.org.ico"
+    "sub_id": "Ruby",
+    "title": "Standard Library",
+    "url": "https://www.ruby-lang.org/en/libraries/",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.ruby-lang.org.ico"
   },
   {
     "id": "code",
-    "sub_id": "Courses",
-    "title": "HTB",
-    "url": "https://www.hackthebox.com/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.hackthebox.com.ico"
+    "sub_id": "Java",
+    "title": "Standard Library",
+    "url": "https://www.java.com",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.java.com.ico"
   },
   {
     "id": "code",
-    "sub_id": "Cheat Sheets",
-    "title": "Awesome CheetSheets",
-    "url": "https://lecoupa.github.io/awesome-cheatsheets/",
-    "icon": "https://external-content.duckduckgo.com/ip3/lecoupa.github.io.ico"
+    "sub_id": "Go",
+    "title": "go.dev",
+    "url": "https://go.dev/learn/",
+    "icon": "https://external-content.duckduckgo.com/ip3/go.dev.ico"
   },
   {
     "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Ruby",
-    "url": "https://www.learnrubyonline.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learnrubyonline.org.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn SQL",
-    "url": "https://www.sqltutorial.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.sqltutorial.org.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn JavaScript",
-    "url": "https://www.learn-js.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-js.org.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn HTML",
-    "url": "https://www.learn-html.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-html.org.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Languages",
-    "title": "Learn Typescript",
-    "url": "https://www.learn-ts.org/",
-    "icon": "https://external-content.duckduckgo.com/ip3/www.learn-ts.org.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Guides",
-    "title": "Web Dev",
-    "url": "https://web.dev/",
-    "icon": "https://external-content.duckduckgo.com/ip3/web.dev.ico"
-  },
-  {
-    "id": "code",
-    "sub_id": "Guides",
-    "title": "Gentoo Handbook",
-    "url": "https://wiki.gentoo.org/wiki/Handbook:Main_Page",
-    "icon": "https://external-content.duckduckgo.com/ip3/wiki.gentoo.org.ico"
+    "sub_id": "Go",
+    "title": "Standard Library",
+    "url": "https://pkg.go.dev/std",
+    "icon": "https://external-content.duckduckgo.com/ip3/pkg.go.dev.ico"
   }
 ]
